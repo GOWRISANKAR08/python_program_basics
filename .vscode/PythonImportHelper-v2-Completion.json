@@ -1,0 +1,2474 @@
+[
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.1_to_100_odd_even_prime",
+        "description": "My_Programs.My_Programs.1_to_100_odd_even_prime",
+        "peekOfCode": "d = {'odd':[], 'even':[],'prime':[]}\nfor n in range(1,101):\n    if n%2 == 0:\n        d['even'].append(n)\n    else:\n        d['odd'].append(n)\n    prime = 1\n    if n==1:\n        continue\n    for j in range(2,n):",
+        "detail": "My_Programs.My_Programs.1_to_100_odd_even_prime",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.2nd_max_method2",
+        "description": "My_Programs.My_Programs.2nd_max_method2",
+        "peekOfCode": "l = [16,3,10,16,4,10,16,16]\nmax1 = l[0]\nfor i in range(len(l)):\n    if l[i] < max1:\n        max1 = l[i]\nprint(max1)\nmax2 = 0\nfor i in range(len(l)):     #initailize\n    if l[i] != max1:\n        max2 = l[i]",
+        "detail": "My_Programs.My_Programs.2nd_max_method2",
+        "documentation": {}
+    },
+    {
+        "label": "max1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.2nd_max_method2",
+        "description": "My_Programs.My_Programs.2nd_max_method2",
+        "peekOfCode": "max1 = l[0]\nfor i in range(len(l)):\n    if l[i] < max1:\n        max1 = l[i]\nprint(max1)\nmax2 = 0\nfor i in range(len(l)):     #initailize\n    if l[i] != max1:\n        max2 = l[i]\n        break",
+        "detail": "My_Programs.My_Programs.2nd_max_method2",
+        "documentation": {}
+    },
+    {
+        "label": "max2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.2nd_max_method2",
+        "description": "My_Programs.My_Programs.2nd_max_method2",
+        "peekOfCode": "max2 = 0\nfor i in range(len(l)):     #initailize\n    if l[i] != max1:\n        max2 = l[i]\n        break\nprint(max2)\nfor i in range(len(l)):\n    if l[i] < max2 and l[i]!=max1:\n        max2 = l[i]\nprint(max2)",
+        "detail": "My_Programs.My_Programs.2nd_max_method2",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.2nd_min",
+        "description": "My_Programs.My_Programs.2nd_min",
+        "peekOfCode": "l = [-2,-4,1,1,2,3,5]\nmin = l[0]\nmin2 = None\nfor i in range(len(l)):\n    if l[i]<min:\n        min2 = min\n        min = l[i]\n    elif (min2==None or l[i]<min2) and l[i]!=min:\n        min2 = l[i]\nprint(min)",
+        "detail": "My_Programs.My_Programs.2nd_min",
+        "documentation": {}
+    },
+    {
+        "label": "min",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.2nd_min",
+        "description": "My_Programs.My_Programs.2nd_min",
+        "peekOfCode": "min = l[0]\nmin2 = None\nfor i in range(len(l)):\n    if l[i]<min:\n        min2 = min\n        min = l[i]\n    elif (min2==None or l[i]<min2) and l[i]!=min:\n        min2 = l[i]\nprint(min)\nprint(min2)",
+        "detail": "My_Programs.My_Programs.2nd_min",
+        "documentation": {}
+    },
+    {
+        "label": "min2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.2nd_min",
+        "description": "My_Programs.My_Programs.2nd_min",
+        "peekOfCode": "min2 = None\nfor i in range(len(l)):\n    if l[i]<min:\n        min2 = min\n        min = l[i]\n    elif (min2==None or l[i]<min2) and l[i]!=min:\n        min2 = l[i]\nprint(min)\nprint(min2)",
+        "detail": "My_Programs.My_Programs.2nd_min",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.bar_graph",
+        "description": "My_Programs.My_Programs.bar_graph",
+        "peekOfCode": "x = ['AFG','NLD']\ny = [1000,28888]\nplt.bar(x,y)\nhelp(plt.plot)\nplt.xlabel('x-axis')\nplt.ylabel('y-axis')\nplt.title('xy Graph')\nplt.show()",
+        "detail": "My_Programs.My_Programs.bar_graph",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.bar_graph",
+        "description": "My_Programs.My_Programs.bar_graph",
+        "peekOfCode": "y = [1000,28888]\nplt.bar(x,y)\nhelp(plt.plot)\nplt.xlabel('x-axis')\nplt.ylabel('y-axis')\nplt.title('xy Graph')\nplt.show()",
+        "detail": "My_Programs.My_Programs.bar_graph",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.bubble_sort",
+        "description": "My_Programs.My_Programs.bubble_sort",
+        "peekOfCode": "l = [4,2,25,6,4]\nn = len(l)\n#Bubble sort\nfor i in range(n-1):\n    for j in range(n-i-1):\n        if l[j] > l[j+1]:\n            (l[j],l[j+1]) = (l[j+1],l[j])\nprint(l)",
+        "detail": "My_Programs.My_Programs.bubble_sort",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.bubble_sort",
+        "description": "My_Programs.My_Programs.bubble_sort",
+        "peekOfCode": "n = len(l)\n#Bubble sort\nfor i in range(n-1):\n    for j in range(n-i-1):\n        if l[j] > l[j+1]:\n            (l[j],l[j+1]) = (l[j+1],l[j])\nprint(l)",
+        "detail": "My_Programs.My_Programs.bubble_sort",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.bubble_sort_efficient_mehod",
+        "description": "My_Programs.My_Programs.bubble_sort_efficient_mehod",
+        "peekOfCode": "l = [1,2,3,5,4]\nn = len(l) #5\nfor i in range(n):\n    swap = 0\n    for j in range(n-i-1):\n        print(l)\n        if l[j]<l[j+1]:\n            (l[j],l[j+1]) = (l[j+1],l[j])\n            swap = 1\n    if swap == 0:",
+        "detail": "My_Programs.My_Programs.bubble_sort_efficient_mehod",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.bubble_sort_efficient_mehod",
+        "description": "My_Programs.My_Programs.bubble_sort_efficient_mehod",
+        "peekOfCode": "n = len(l) #5\nfor i in range(n):\n    swap = 0\n    for j in range(n-i-1):\n        print(l)\n        if l[j]<l[j+1]:\n            (l[j],l[j+1]) = (l[j+1],l[j])\n            swap = 1\n    if swap == 0:\n        break",
+        "detail": "My_Programs.My_Programs.bubble_sort_efficient_mehod",
+        "documentation": {}
+    },
+    {
+        "label": "check_palindrome",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "description": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "peekOfCode": "def check_palindrome(word):\n    start = 0\n    end = len(word)-1\n    while(start < end):\n        if word[start] != word[end]:\n            return 0\n        start+=1\n        end-=1\n    return 1\nf = open('D://Logic_360//test.txt','r')",
+        "detail": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "description": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "peekOfCode": "f = open('D://Logic_360//test.txt','r')\nstring = f.read()   #string\nl = string.split()\nprint(l)\np = []\nf1 = open('D:/Logic_360/test101.txt','a')\nfor word in l:\n    s = ''  #empty string\n    for letter in word:\n        if letter.isalnum():",
+        "detail": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "description": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "peekOfCode": "string = f.read()   #string\nl = string.split()\nprint(l)\np = []\nf1 = open('D:/Logic_360/test101.txt','a')\nfor word in l:\n    s = ''  #empty string\n    for letter in word:\n        if letter.isalnum():\n            s+=letter",
+        "detail": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "description": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "peekOfCode": "l = string.split()\nprint(l)\np = []\nf1 = open('D:/Logic_360/test101.txt','a')\nfor word in l:\n    s = ''  #empty string\n    for letter in word:\n        if letter.isalnum():\n            s+=letter\n        print(s)",
+        "detail": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "description": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "peekOfCode": "p = []\nf1 = open('D:/Logic_360/test101.txt','a')\nfor word in l:\n    s = ''  #empty string\n    for letter in word:\n        if letter.isalnum():\n            s+=letter\n        print(s)\n    if  len(s)>=2 and check_palindrome(s):\n            f1.write(s+'\\n')",
+        "detail": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "documentation": {}
+    },
+    {
+        "label": "f1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "description": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "peekOfCode": "f1 = open('D:/Logic_360/test101.txt','a')\nfor word in l:\n    s = ''  #empty string\n    for letter in word:\n        if letter.isalnum():\n            s+=letter\n        print(s)\n    if  len(s)>=2 and check_palindrome(s):\n            f1.write(s+'\\n')\nprint(p)",
+        "detail": "My_Programs.My_Programs.Check_palindrome_in_text_file",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Check_prime_in_list",
+        "description": "My_Programs.My_Programs.Check_prime_in_list",
+        "peekOfCode": "l = [2,4,6,7,9,11]\nfor j in range(0,len(l),1):\n    prime = 1\n    n = l[j]\n    for i in range(2, n):\n        if n % i == 0:\n            prime = 0\n            break\n    if prime == 1:\n        print(n, 'is prime')",
+        "detail": "My_Programs.My_Programs.Check_prime_in_list",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.class_inheritance1",
+        "description": "My_Programs.My_Programs.class_inheritance1",
+        "peekOfCode": "class Employee(ABC):    #Abstract class\n    com_name = 'XYZ compnay'    #class attribute\n    def __init__(self,name,salary,role):\n        self.name = name    #public\n        self.__salary = salary     #private #instance/object attribute\n        self._role = role   #protected\n    @abstractmethod\n    def show_company(self):\n        pass\nclass Chennai_branch(Employee):",
+        "detail": "My_Programs.My_Programs.class_inheritance1",
+        "documentation": {}
+    },
+    {
+        "label": "Chennai_branch",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.class_inheritance1",
+        "description": "My_Programs.My_Programs.class_inheritance1",
+        "peekOfCode": "class Chennai_branch(Employee):\n    def __init__(self,name,salary,role,address):\n        super().__init__(name,salary,role)      #super() refers to parent class\n        self.address = address\n    def show_company(self): #instance method\n        print(self.com_name)\nclass Bangalore_branch(Employee):\n    def __init__(self,name,salary,role,address):\n        super().__init__(name,salary,role)\n        self.address = address",
+        "detail": "My_Programs.My_Programs.class_inheritance1",
+        "documentation": {}
+    },
+    {
+        "label": "Bangalore_branch",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.class_inheritance1",
+        "description": "My_Programs.My_Programs.class_inheritance1",
+        "peekOfCode": "class Bangalore_branch(Employee):\n    def __init__(self,name,salary,role,address):\n        super().__init__(name,salary,role)\n        self.address = address\n    def show_company(self):\n        print(self.com_name)\ne2 = Chennai_branch('kumar',20000,'Enginner','ECR')\ns3 = Bangalore_branch('kumar',20000,'Enginner','ECR')\nprint(e2.com_name)\nprint(s3.com_name)",
+        "detail": "My_Programs.My_Programs.class_inheritance1",
+        "documentation": {}
+    },
+    {
+        "label": "e2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.class_inheritance1",
+        "description": "My_Programs.My_Programs.class_inheritance1",
+        "peekOfCode": "e2 = Chennai_branch('kumar',20000,'Enginner','ECR')\ns3 = Bangalore_branch('kumar',20000,'Enginner','ECR')\nprint(e2.com_name)\nprint(s3.com_name)",
+        "detail": "My_Programs.My_Programs.class_inheritance1",
+        "documentation": {}
+    },
+    {
+        "label": "s3",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.class_inheritance1",
+        "description": "My_Programs.My_Programs.class_inheritance1",
+        "peekOfCode": "s3 = Bangalore_branch('kumar',20000,'Enginner','ECR')\nprint(e2.com_name)\nprint(s3.com_name)",
+        "detail": "My_Programs.My_Programs.class_inheritance1",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.class_program1",
+        "description": "My_Programs.My_Programs.class_program1",
+        "peekOfCode": "class student:\n    school = 'ABC school'   #class varibale/attribute\n    prin = 'kala'\n    def __init__(self,name,age):\n        self.name = name    #instance varibale/attributes\n        self.age  = age\n    def __str__(self):\n        return 'its an obj od student class'\n    def show(self):     # methods\n        print(self.name)",
+        "detail": "My_Programs.My_Programs.class_program1",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.class_program1",
+        "description": "My_Programs.My_Programs.class_program1",
+        "peekOfCode": "s1 = student('kumar',12)  #constructor\ns2 = student('ganesh',13)\nprint(s)",
+        "detail": "My_Programs.My_Programs.class_program1",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.class_program1",
+        "description": "My_Programs.My_Programs.class_program1",
+        "peekOfCode": "s2 = student('ganesh',13)\nprint(s)",
+        "detail": "My_Programs.My_Programs.class_program1",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.common_characters",
+        "description": "My_Programs.My_Programs.common_characters",
+        "peekOfCode": "l = ['glass','brass','class','cat']\naplha = [chr(i) for i in range(97,123)]\nprint(aplha)\nc = []\ncount=0\nl_leng = len(l)\nfor letter in aplha:\n    for word in l:\n        if letter in word:\n            count+=1",
+        "detail": "My_Programs.My_Programs.common_characters",
+        "documentation": {}
+    },
+    {
+        "label": "aplha",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.common_characters",
+        "description": "My_Programs.My_Programs.common_characters",
+        "peekOfCode": "aplha = [chr(i) for i in range(97,123)]\nprint(aplha)\nc = []\ncount=0\nl_leng = len(l)\nfor letter in aplha:\n    for word in l:\n        if letter in word:\n            count+=1\n    if count==l_leng:",
+        "detail": "My_Programs.My_Programs.common_characters",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.common_characters",
+        "description": "My_Programs.My_Programs.common_characters",
+        "peekOfCode": "c = []\ncount=0\nl_leng = len(l)\nfor letter in aplha:\n    for word in l:\n        if letter in word:\n            count+=1\n    if count==l_leng:\n        c.append(letter)\n    count = 0",
+        "detail": "My_Programs.My_Programs.common_characters",
+        "documentation": {}
+    },
+    {
+        "label": "l_leng",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.common_characters",
+        "description": "My_Programs.My_Programs.common_characters",
+        "peekOfCode": "l_leng = len(l)\nfor letter in aplha:\n    for word in l:\n        if letter in word:\n            count+=1\n    if count==l_leng:\n        c.append(letter)\n    count = 0\nprint(c)",
+        "detail": "My_Programs.My_Programs.common_characters",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.db_connect",
+        "description": "My_Programs.My_Programs.db_connect",
+        "peekOfCode": "connection = sqlite3.connect(r'C:\\Users\\dines\\Downloads\\Ex_Files_SQL_EssT\\Ex_Files_SQL_EssT\\Exercise Files\\db\\world.db')\nc = connection.cursor() #midware\nl = list(c.execute('SELECT DISTINCT CountryCode FROM city;'))\nprint(l)\nprint(l[0][0])\nfor CC in l:\n    print(CC[0])\n    q = 'DROP TABLE IF EXISTS \"'+CC[0]+'\";'\n    c.execute(q)\n    q = 'CREATE TABLE IF NOT EXISTS \"'+CC[0]+'\" (ID INTEGER PRIMARY KEY,name TEXT,District TEXT,Population INTEGER);'",
+        "detail": "My_Programs.My_Programs.db_connect",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.db_connect",
+        "description": "My_Programs.My_Programs.db_connect",
+        "peekOfCode": "c = connection.cursor() #midware\nl = list(c.execute('SELECT DISTINCT CountryCode FROM city;'))\nprint(l)\nprint(l[0][0])\nfor CC in l:\n    print(CC[0])\n    q = 'DROP TABLE IF EXISTS \"'+CC[0]+'\";'\n    c.execute(q)\n    q = 'CREATE TABLE IF NOT EXISTS \"'+CC[0]+'\" (ID INTEGER PRIMARY KEY,name TEXT,District TEXT,Population INTEGER);'\n    c.execute(q)",
+        "detail": "My_Programs.My_Programs.db_connect",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.db_connect",
+        "description": "My_Programs.My_Programs.db_connect",
+        "peekOfCode": "l = list(c.execute('SELECT DISTINCT CountryCode FROM city;'))\nprint(l)\nprint(l[0][0])\nfor CC in l:\n    print(CC[0])\n    q = 'DROP TABLE IF EXISTS \"'+CC[0]+'\";'\n    c.execute(q)\n    q = 'CREATE TABLE IF NOT EXISTS \"'+CC[0]+'\" (ID INTEGER PRIMARY KEY,name TEXT,District TEXT,Population INTEGER);'\n    c.execute(q)\n    q = 'SELECT ID,Name,District,Population FROM City WHERE CountryCode=\"'+CC[0]+'\";'",
+        "detail": "My_Programs.My_Programs.db_connect",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.db_connect_sql",
+        "description": "My_Programs.My_Programs.db_connect_sql",
+        "peekOfCode": "db = sqlite3.connect('test100.db')\nc= db.cursor()\nc.execute('CREATE TABLE school (name TEXT, age INTEGER);')\nc.execute('INSERT INTO school (name,age) VALUES (\"bala\",19)')\ndb.commit()\ndb.close()",
+        "detail": "My_Programs.My_Programs.db_connect_sql",
+        "documentation": {}
+    },
+    {
+        "label": "make_pretty",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.Decorator_basic_function",
+        "description": "My_Programs.My_Programs.Decorator_basic_function",
+        "peekOfCode": "def make_pretty(func):   #outer fun /decorator fun\n    def inner():\n        print('inner')\n        func()\n    return inner\n@make_pretty\ndef ordinary():\n    print('ordinary')\n# dec_fun = make_pretty(ordinary) #inner == dec_fun\n# dec_fun()",
+        "detail": "My_Programs.My_Programs.Decorator_basic_function",
+        "documentation": {}
+    },
+    {
+        "label": "ordinary",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.Decorator_basic_function",
+        "description": "My_Programs.My_Programs.Decorator_basic_function",
+        "peekOfCode": "def ordinary():\n    print('ordinary')\n# dec_fun = make_pretty(ordinary) #inner == dec_fun\n# dec_fun()\nordinary()",
+        "detail": "My_Programs.My_Programs.Decorator_basic_function",
+        "documentation": {}
+    },
+    {
+        "label": "make_pretty",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.Decorator_example",
+        "description": "My_Programs.My_Programs.Decorator_example",
+        "peekOfCode": "def make_pretty(func):  #dec func, func = ordinary_func\n    def inner(a,b):\n        if b==0:\n            return \"its can't be divided\"\n        if a < b:\n            a, b = b, a\n        return func(a,b)\n    return inner\n@make_pretty\ndef div(a,b):",
+        "detail": "My_Programs.My_Programs.Decorator_example",
+        "documentation": {}
+    },
+    {
+        "label": "div",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.Decorator_example",
+        "description": "My_Programs.My_Programs.Decorator_example",
+        "peekOfCode": "def div(a,b):\n    return a/b\n#df = make_pretty(ordinary_fun)  #df = inner\n#df()\nprint(div(2,0))",
+        "detail": "My_Programs.My_Programs.Decorator_example",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Decorator_example",
+        "description": "My_Programs.My_Programs.Decorator_example",
+        "peekOfCode": "#df = make_pretty(ordinary_fun)  #df = inner\n#df()\nprint(div(2,0))",
+        "detail": "My_Programs.My_Programs.Decorator_example",
+        "documentation": {}
+    },
+    {
+        "label": "#l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.dictionary_example",
+        "description": "My_Programs.My_Programs.dictionary_example",
+        "peekOfCode": "#l = [('dhoni', 12), ('kholi', 111), ('raina', 100),('dhoni',120),('kholi',100),('dhoni',112),('dhoni',112)]\nl1 = [('dhoni', 12), ('kholi', 111),('dhoni', 12), ('kholi', 111),('dhoni', 12), ('kholi', 111),('kholi', 111),('kholi', 110)]\nd = {}\nfor name,run in l1:\n    if name in d.keys():\n        d[name].append(run) #existing key\n    else:\n        d[name] = [run] #new pair\nprint(d)\nfor name,run in l1:",
+        "detail": "My_Programs.My_Programs.dictionary_example",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.dictionary_example",
+        "description": "My_Programs.My_Programs.dictionary_example",
+        "peekOfCode": "l1 = [('dhoni', 12), ('kholi', 111),('dhoni', 12), ('kholi', 111),('dhoni', 12), ('kholi', 111),('kholi', 111),('kholi', 110)]\nd = {}\nfor name,run in l1:\n    if name in d.keys():\n        d[name].append(run) #existing key\n    else:\n        d[name] = [run] #new pair\nprint(d)\nfor name,run in l1:\n    try:",
+        "detail": "My_Programs.My_Programs.dictionary_example",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.dictionary_example",
+        "description": "My_Programs.My_Programs.dictionary_example",
+        "peekOfCode": "d = {}\nfor name,run in l1:\n    if name in d.keys():\n        d[name].append(run) #existing key\n    else:\n        d[name] = [run] #new pair\nprint(d)\nfor name,run in l1:\n    try:\n        d[name].append(run)  # existing key",
+        "detail": "My_Programs.My_Programs.dictionary_example",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.dictionary_key_creation_example",
+        "description": "My_Programs.My_Programs.dictionary_key_creation_example",
+        "peekOfCode": "d = [('Dhoni',13),('Kholi',34),('Dhoni',45),('Dhoni',25),('Kholi',67),('Dhoni',50),('Kholi',34),('Dhoni',67),('Rohit',99)]\nscore = {}\nfor name,run in d:\n    if name not in score.keys():\n        score[name] = [run]  # To create new key with list value\n    else:\n        score[name].append(run)\nprint(score)\n# if 'Dhoni' not in score.keys():\n#     score['Dhoni']=[13]   #To create new key with list value",
+        "detail": "My_Programs.My_Programs.dictionary_key_creation_example",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.dictionary_key_creation_example",
+        "description": "My_Programs.My_Programs.dictionary_key_creation_example",
+        "peekOfCode": "score = {}\nfor name,run in d:\n    if name not in score.keys():\n        score[name] = [run]  # To create new key with list value\n    else:\n        score[name].append(run)\nprint(score)\n# if 'Dhoni' not in score.keys():\n#     score['Dhoni']=[13]   #To create new key with list value",
+        "detail": "My_Programs.My_Programs.dictionary_key_creation_example",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.divisible_of_2_and_3",
+        "description": "My_Programs.My_Programs.divisible_of_2_and_3",
+        "peekOfCode": "n = 19\nif n%2==0 and n%3==0:\n    print('div by both')\nelif n%2==0 :\n    print('div by 2')\nelif n % 3 == 0:\n    print('div by 3')\nelse:\n    print('not div by both')",
+        "detail": "My_Programs.My_Programs.divisible_of_2_and_3",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.factorial_using_finction",
+        "description": "My_Programs.My_Programs.factorial_using_finction",
+        "peekOfCode": "def factorial(n):\n    fact = 1\n    for i in range(1,n+1):\n        fact= fact*i\n    return fact\nn = int(input('Enter n:'))\nx  = factorial(n)\nprint(x)",
+        "detail": "My_Programs.My_Programs.factorial_using_finction",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.factorial_using_finction",
+        "description": "My_Programs.My_Programs.factorial_using_finction",
+        "peekOfCode": "n = int(input('Enter n:'))\nx  = factorial(n)\nprint(x)",
+        "detail": "My_Programs.My_Programs.factorial_using_finction",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.factorial_using_generator",
+        "description": "My_Programs.My_Programs.factorial_using_generator",
+        "peekOfCode": "def factorial(n):\n    fact = 1\n    for i in range(1,n+1):\n        fact = fact * i\n        yield fact\ndef ofactorial(n):\n    fact = 1\n    for i in range(1,n+1):\n        fact = fact * i\n    return fact",
+        "detail": "My_Programs.My_Programs.factorial_using_generator",
+        "documentation": {}
+    },
+    {
+        "label": "ofactorial",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.factorial_using_generator",
+        "description": "My_Programs.My_Programs.factorial_using_generator",
+        "peekOfCode": "def ofactorial(n):\n    fact = 1\n    for i in range(1,n+1):\n        fact = fact * i\n    return fact\n#print(ofactorial(10000000000))\ng = factorial(10000000000)\nprint(g)\nprint(next(g))\nprint(next(g))",
+        "detail": "My_Programs.My_Programs.factorial_using_generator",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.factorial_using_generator",
+        "description": "My_Programs.My_Programs.factorial_using_generator",
+        "peekOfCode": "g = factorial(10000000000)\nprint(g)\nprint(next(g))\nprint(next(g))\nprint(next(g))\nprint(next(g))\nprint(next(g))\nprint(next(g))\nprint(next(g))\nprint(next(g))",
+        "detail": "My_Programs.My_Programs.factorial_using_generator",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.factorial_using_recursion",
+        "description": "My_Programs.My_Programs.factorial_using_recursion",
+        "peekOfCode": "def factorial(n):\n    if n<=1:        #Base condition\n        return n\n    else:           #recursive condition\n        return n * factorial(n-1)\nprint(factorial(5))",
+        "detail": "My_Programs.My_Programs.factorial_using_recursion",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.fibonacci_series",
+        "description": "My_Programs.My_Programs.fibonacci_series",
+        "peekOfCode": "n = int(input('Enter n: '))\nn1 = 0\nn2 = 1\nfor i in range(n):\n    print(n1)\n    n3 = n1+n2\n    n1 = n2\n    n2 = n3",
+        "detail": "My_Programs.My_Programs.fibonacci_series",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.fibonacci_series",
+        "description": "My_Programs.My_Programs.fibonacci_series",
+        "peekOfCode": "n1 = 0\nn2 = 1\nfor i in range(n):\n    print(n1)\n    n3 = n1+n2\n    n1 = n2\n    n2 = n3",
+        "detail": "My_Programs.My_Programs.fibonacci_series",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.fibonacci_series",
+        "description": "My_Programs.My_Programs.fibonacci_series",
+        "peekOfCode": "n2 = 1\nfor i in range(n):\n    print(n1)\n    n3 = n1+n2\n    n1 = n2\n    n2 = n3",
+        "detail": "My_Programs.My_Programs.fibonacci_series",
+        "documentation": {}
+    },
+    {
+        "label": "fib",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.fibonacci_using_recursion",
+        "description": "My_Programs.My_Programs.fibonacci_using_recursion",
+        "peekOfCode": "def fib(n):\n    if n<=1:\n        return n\n    else:\n        return fib(n-1)+fib(n-2)\nn = int(input('enter an number: '))\nfor i in range(n):\n    print(fib(i))",
+        "detail": "My_Programs.My_Programs.fibonacci_using_recursion",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.fibonacci_using_recursion",
+        "description": "My_Programs.My_Programs.fibonacci_using_recursion",
+        "peekOfCode": "n = int(input('enter an number: '))\nfor i in range(n):\n    print(fib(i))",
+        "detail": "My_Programs.My_Programs.fibonacci_using_recursion",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.file_write",
+        "description": "My_Programs.My_Programs.file_write",
+        "peekOfCode": "f = open('D://Login_360//test101.txt','w')\nf.write('Hi hello\\n')\nf.write('How are you')\nf.close()",
+        "detail": "My_Programs.My_Programs.file_write",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.horizontal_user_input",
+        "description": "My_Programs.My_Programs.horizontal_user_input",
+        "peekOfCode": "n = int(input())\nl = list(map(int,input().split()))\n#l = [int(i) for i in input().split()]\nprint(l)",
+        "detail": "My_Programs.My_Programs.horizontal_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.horizontal_user_input",
+        "description": "My_Programs.My_Programs.horizontal_user_input",
+        "peekOfCode": "l = list(map(int,input().split()))\n#l = [int(i) for i in input().split()]\nprint(l)",
+        "detail": "My_Programs.My_Programs.horizontal_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "#l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.horizontal_user_input",
+        "description": "My_Programs.My_Programs.horizontal_user_input",
+        "peekOfCode": "#l = [int(i) for i in input().split()]\nprint(l)",
+        "detail": "My_Programs.My_Programs.horizontal_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "publication",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.interitance",
+        "description": "My_Programs.My_Programs.interitance",
+        "peekOfCode": "class publication(ABC):\n    company = 'ABC company'\n    CEO = 'sam'\n    def __init__(self,title,price):\n        self.title = title\n        self._price = price\n    @abstractmethod\n    def show_price(self):\n        pass\nclass periodic(publication):",
+        "detail": "My_Programs.My_Programs.interitance",
+        "documentation": {}
+    },
+    {
+        "label": "periodic",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.interitance",
+        "description": "My_Programs.My_Programs.interitance",
+        "peekOfCode": "class periodic(publication):\n    def __init__(self,title, publisher, price, period):\n        super().__init__(title, price)\n        self.publisher = publisher\n        self.period = period\nclass Book(publication):\n    def __init__(self, title, author, pages, price):\n        super().__init__(title,price)\n        self.author = author\n        self.pages = pages",
+        "detail": "My_Programs.My_Programs.interitance",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.interitance",
+        "description": "My_Programs.My_Programs.interitance",
+        "peekOfCode": "class Book(publication):\n    def __init__(self, title, author, pages, price):\n        super().__init__(title,price)\n        self.author = author\n        self.pages = pages\n    def show_price(self):\n        print(self._price)\nclass Magazine(periodic):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title, publisher, price, period)",
+        "detail": "My_Programs.My_Programs.interitance",
+        "documentation": {}
+    },
+    {
+        "label": "Magazine",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.interitance",
+        "description": "My_Programs.My_Programs.interitance",
+        "peekOfCode": "class Magazine(periodic):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title, publisher, price, period)\n    def show_price(self):\n        print(self._price)\nclass Newspaper(periodic):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title, publisher, price, period)\n    def show_price(self):\n        print(self._price)",
+        "detail": "My_Programs.My_Programs.interitance",
+        "documentation": {}
+    },
+    {
+        "label": "Newspaper",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.interitance",
+        "description": "My_Programs.My_Programs.interitance",
+        "peekOfCode": "class Newspaper(periodic):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title, publisher, price, period)\n    def show_price(self):\n        print(self._price)\n# b1 = Book(\"wings of f\", \"Aldous Huxley\", 311, 29.0)\n# n1 = Newspaper(\"NY Times\", \"New York Times Company\", 6.0, \"Daily\")\n# m1 = Magazine(\"Scientific American\", \"Springer Nature\", 5.99, \"Monthly\")\n#\n#",
+        "detail": "My_Programs.My_Programs.interitance",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Map_function_Str_to_int",
+        "description": "My_Programs.My_Programs.Map_function_Str_to_int",
+        "peekOfCode": "l = ['1','2','4','6']\nprint(l)\nm = map(int,l)\nprint(list(m))\n'''for i in range(len(l)):\n    l[i] = int(l[i])\nprint(l)'''",
+        "detail": "My_Programs.My_Programs.Map_function_Str_to_int",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Map_function_Str_to_int",
+        "description": "My_Programs.My_Programs.Map_function_Str_to_int",
+        "peekOfCode": "m = map(int,l)\nprint(list(m))\n'''for i in range(len(l)):\n    l[i] = int(l[i])\nprint(l)'''",
+        "detail": "My_Programs.My_Programs.Map_function_Str_to_int",
+        "documentation": {}
+    },
+    {
+        "label": "m3",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "peekOfCode": "m3 = []\nr = int(input())\nc = int(input())\nm1 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()]\n    print(l)\n    m1.append(l)\n    print(m1)\nm2 = []",
+        "detail": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "peekOfCode": "r = int(input())\nc = int(input())\nm1 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()]\n    print(l)\n    m1.append(l)\n    print(m1)\nm2 = []\nfor i in range(r):",
+        "detail": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "peekOfCode": "c = int(input())\nm1 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()]\n    print(l)\n    m1.append(l)\n    print(m1)\nm2 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()] #get horizontal input in integer in list",
+        "detail": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "peekOfCode": "m1 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()]\n    print(l)\n    m1.append(l)\n    print(m1)\nm2 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()] #get horizontal input in integer in list\n    print(l)",
+        "detail": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "m2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "peekOfCode": "m2 = []\nfor i in range(r):\n    l =[int(i) for i in input().split()] #get horizontal input in integer in list\n    print(l)\n    m2.append(l)\n    print(m2)\nfor i in range(r):\n    m3.append([])\n    for j in range(c):\n        print(m3)",
+        "detail": "My_Programs.My_Programs.Matrix_addition_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "mat",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check1",
+        "description": "My_Programs.My_Programs.Matrix_identical_check1",
+        "peekOfCode": "mat = [[2,0,0],[0,2,0],[0,0,2]]\na = mat[0][0]\nflag =0\nfor i in range(len(mat)):\n    for j in range(len(mat[0])):\n        if i==j:\n            if a!=mat[i][j]:\n                flag = 1\n                break\n        else:",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check1",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check1",
+        "description": "My_Programs.My_Programs.Matrix_identical_check1",
+        "peekOfCode": "a = mat[0][0]\nflag =0\nfor i in range(len(mat)):\n    for j in range(len(mat[0])):\n        if i==j:\n            if a!=mat[i][j]:\n                flag = 1\n                break\n        else:\n            if mat[i][j]!=0:",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check1",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check2",
+        "description": "My_Programs.My_Programs.Matrix_identical_check2",
+        "peekOfCode": "r = int(input())\nc = int(input())\nm1 = []\nfor j in range(r):\n    s = [int(i) for i in input().split()]   #horizontal input\n    m1.append(s)\nprint(m1)\nidentical = 1\nv = m1[0][0]\nfor i in range(r):",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check2",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check2",
+        "description": "My_Programs.My_Programs.Matrix_identical_check2",
+        "peekOfCode": "c = int(input())\nm1 = []\nfor j in range(r):\n    s = [int(i) for i in input().split()]   #horizontal input\n    m1.append(s)\nprint(m1)\nidentical = 1\nv = m1[0][0]\nfor i in range(r):\n    for j in range(c):",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check2",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check2",
+        "description": "My_Programs.My_Programs.Matrix_identical_check2",
+        "peekOfCode": "m1 = []\nfor j in range(r):\n    s = [int(i) for i in input().split()]   #horizontal input\n    m1.append(s)\nprint(m1)\nidentical = 1\nv = m1[0][0]\nfor i in range(r):\n    for j in range(c):\n        if i==j:",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check2",
+        "documentation": {}
+    },
+    {
+        "label": "identical",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check2",
+        "description": "My_Programs.My_Programs.Matrix_identical_check2",
+        "peekOfCode": "identical = 1\nv = m1[0][0]\nfor i in range(r):\n    for j in range(c):\n        if i==j:\n            if m1[i][j]!=v:\n                identical=0\n                break\n        else:\n            if m1[i][j]!=0:",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check2",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_identical_check2",
+        "description": "My_Programs.My_Programs.Matrix_identical_check2",
+        "peekOfCode": "v = m1[0][0]\nfor i in range(r):\n    for j in range(c):\n        if i==j:\n            if m1[i][j]!=v:\n                identical=0\n                break\n        else:\n            if m1[i][j]!=0:\n                identical=0",
+        "detail": "My_Programs.My_Programs.Matrix_identical_check2",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_mul",
+        "description": "My_Programs.My_Programs.Matrix_mul",
+        "peekOfCode": "m1 = [[1,2,3],[4,5,6],[7,8,9]]\nm2 = [[2,3],[1,5],[1,2]]\nm3 = [[0,0],[0,0],[0,0]]\nfor i in range(len(m1)):\n    for j in range(len(m2[0])):\n        for k in range(len(m2)):\n        #m3[i][j] = m1[i][0]*m2[0][j] + m1[i][1]*m2[1][j] + m1[i][2]*m2[2][j]\n            m3[i][j] += m1[i][k]*m2[k][j]\nprint(m3)",
+        "detail": "My_Programs.My_Programs.Matrix_mul",
+        "documentation": {}
+    },
+    {
+        "label": "m2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_mul",
+        "description": "My_Programs.My_Programs.Matrix_mul",
+        "peekOfCode": "m2 = [[2,3],[1,5],[1,2]]\nm3 = [[0,0],[0,0],[0,0]]\nfor i in range(len(m1)):\n    for j in range(len(m2[0])):\n        for k in range(len(m2)):\n        #m3[i][j] = m1[i][0]*m2[0][j] + m1[i][1]*m2[1][j] + m1[i][2]*m2[2][j]\n            m3[i][j] += m1[i][k]*m2[k][j]\nprint(m3)",
+        "detail": "My_Programs.My_Programs.Matrix_mul",
+        "documentation": {}
+    },
+    {
+        "label": "m3",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_mul",
+        "description": "My_Programs.My_Programs.Matrix_mul",
+        "peekOfCode": "m3 = [[0,0],[0,0],[0,0]]\nfor i in range(len(m1)):\n    for j in range(len(m2[0])):\n        for k in range(len(m2)):\n        #m3[i][j] = m1[i][0]*m2[0][j] + m1[i][1]*m2[1][j] + m1[i][2]*m2[2][j]\n            m3[i][j] += m1[i][k]*m2[k][j]\nprint(m3)",
+        "detail": "My_Programs.My_Programs.Matrix_mul",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication",
+        "description": "My_Programs.My_Programs.Matrix_multiplication",
+        "peekOfCode": "m1 = [[2,3,1],\n     [1,2,2]]  #2x3  3x3\nm2 = [[1,2,3],\n     [4,5,6],\n     [7,8,9]]  #3x3\nmul= []\nif len(m1[0])!=len(m2):\n     print('mat mul is not possible')\nres =0\nfor i in range(len(m1)):",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication",
+        "documentation": {}
+    },
+    {
+        "label": "m2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication",
+        "description": "My_Programs.My_Programs.Matrix_multiplication",
+        "peekOfCode": "m2 = [[1,2,3],\n     [4,5,6],\n     [7,8,9]]  #3x3\nmul= []\nif len(m1[0])!=len(m2):\n     print('mat mul is not possible')\nres =0\nfor i in range(len(m1)):\n     mul.append([])\n     for j in range(len(m2[0])):",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication",
+        "documentation": {}
+    },
+    {
+        "label": "'''r",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication",
+        "description": "My_Programs.My_Programs.Matrix_multiplication",
+        "peekOfCode": "'''r = len(m)\nprint(r)\nprint(len(m[0]))\n'''",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication",
+        "documentation": {}
+    },
+    {
+        "label": "r1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "peekOfCode": "r1 = int(input('Enter m1 r:'))\nc1 = int(input('Enter m1 c:'))\nr2 = int(input('Enter m2 r:'))\nc2 = int(input('Enter m2 c:'))\nif c1==r2:\n    m1 = []\n    for j in range(r1):\n        s = [int(i) for i in input().split()]   #horizontal input\n        m1.append(s)\n    m2 = []",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "peekOfCode": "c1 = int(input('Enter m1 c:'))\nr2 = int(input('Enter m2 r:'))\nc2 = int(input('Enter m2 c:'))\nif c1==r2:\n    m1 = []\n    for j in range(r1):\n        s = [int(i) for i in input().split()]   #horizontal input\n        m1.append(s)\n    m2 = []\n    for j in range(r2):",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "r2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "peekOfCode": "r2 = int(input('Enter m2 r:'))\nc2 = int(input('Enter m2 c:'))\nif c1==r2:\n    m1 = []\n    for j in range(r1):\n        s = [int(i) for i in input().split()]   #horizontal input\n        m1.append(s)\n    m2 = []\n    for j in range(r2):\n        s = [int(i) for i in input().split()]   #horizontal input",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "c2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "description": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "peekOfCode": "c2 = int(input('Enter m2 c:'))\nif c1==r2:\n    m1 = []\n    for j in range(r1):\n        s = [int(i) for i in input().split()]   #horizontal input\n        m1.append(s)\n    m2 = []\n    for j in range(r2):\n        s = [int(i) for i in input().split()]   #horizontal input\n        m2.append(s)",
+        "detail": "My_Programs.My_Programs.Matrix_multiplication_with_userinput",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.matrix_user_input",
+        "description": "My_Programs.My_Programs.matrix_user_input",
+        "peekOfCode": "r = int(input('Enter no of r: '))\nc = int(input('Enter no of c: '))\nmat = []\nfor i in range(r):\n    l = [int(i) for i in input().split()]\n    mat.append(l)\nprint(mat)",
+        "detail": "My_Programs.My_Programs.matrix_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.matrix_user_input",
+        "description": "My_Programs.My_Programs.matrix_user_input",
+        "peekOfCode": "c = int(input('Enter no of c: '))\nmat = []\nfor i in range(r):\n    l = [int(i) for i in input().split()]\n    mat.append(l)\nprint(mat)",
+        "detail": "My_Programs.My_Programs.matrix_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "mat",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.matrix_user_input",
+        "description": "My_Programs.My_Programs.matrix_user_input",
+        "peekOfCode": "mat = []\nfor i in range(r):\n    l = [int(i) for i in input().split()]\n    mat.append(l)\nprint(mat)",
+        "detail": "My_Programs.My_Programs.matrix_user_input",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "l = [2,3,4,5,6]\nsum = 0     #initialize\nfor i in range(0,5,1):\n    sum += l[i]   #sum = sum + l[i]\nprint(sum)\n# multiplication of values in list\nl = [2,3,4,5,6]\nmul = 1     #initialize\nfor i in range(0,5,1):\n    mul *= l[i]   #mul = mul * l[i]",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "sum = 0     #initialize\nfor i in range(0,5,1):\n    sum += l[i]   #sum = sum + l[i]\nprint(sum)\n# multiplication of values in list\nl = [2,3,4,5,6]\nmul = 1     #initialize\nfor i in range(0,5,1):\n    mul *= l[i]   #mul = mul * l[i]\nprint(mul)",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "l = [2,3,4,5,6]\nmul = 1     #initialize\nfor i in range(0,5,1):\n    mul *= l[i]   #mul = mul * l[i]\nprint(mul)\n#To find max in list\nl = [2,3,6,5,4,6]\nleng = len(l)\nmax = l[0]  #initialize\nfor i in range(1,leng,1):",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "mul = 1     #initialize\nfor i in range(0,5,1):\n    mul *= l[i]   #mul = mul * l[i]\nprint(mul)\n#To find max in list\nl = [2,3,6,5,4,6]\nleng = len(l)\nmax = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]>max:",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "l = [2,3,6,5,4,6]\nleng = len(l)\nmax = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]>max:\n        max = l[i]\nprint(max)\n# To find min in a list\nl = [2,3,6,5,4,6]\nleng = len(l)",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "leng",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "leng = len(l)\nmax = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]>max:\n        max = l[i]\nprint(max)\n# To find min in a list\nl = [2,3,6,5,4,6]\nleng = len(l)\nmin = l[0]  #initialize",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "max",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "max = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]>max:\n        max = l[i]\nprint(max)\n# To find min in a list\nl = [2,3,6,5,4,6]\nleng = len(l)\nmin = l[0]  #initialize\nfor i in range(1,leng,1):",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "l = [2,3,6,5,4,6]\nleng = len(l)\nmin = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]<min:\n        min = l[i]\nprint(min)",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "leng",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "leng = len(l)\nmin = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]<min:\n        min = l[i]\nprint(min)",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "min",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.max_sum_mul_programs",
+        "description": "My_Programs.My_Programs.max_sum_mul_programs",
+        "peekOfCode": "min = l[0]  #initialize\nfor i in range(1,leng,1):\n    if l[i]<min:\n        min = l[i]\nprint(min)",
+        "detail": "My_Programs.My_Programs.max_sum_mul_programs",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "description": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "peekOfCode": "s = input()\nl = list(s)\nprint(l)\nd = {'}':'{',  ')':'(',  ']':'['}\ni = 0\nequal = 1\nwhile(l):\n    if not i<len(l):\n        equal = 0\n        break",
+        "detail": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "description": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "peekOfCode": "l = list(s)\nprint(l)\nd = {'}':'{',  ')':'(',  ']':'['}\ni = 0\nequal = 1\nwhile(l):\n    if not i<len(l):\n        equal = 0\n        break\n    if l[i] in d.keys():",
+        "detail": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "description": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "peekOfCode": "d = {'}':'{',  ')':'(',  ']':'['}\ni = 0\nequal = 1\nwhile(l):\n    if not i<len(l):\n        equal = 0\n        break\n    if l[i] in d.keys():\n        if l[i-1] == d[l[i]]:\n            l.pop(i-1)",
+        "detail": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "description": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "peekOfCode": "i = 0\nequal = 1\nwhile(l):\n    if not i<len(l):\n        equal = 0\n        break\n    if l[i] in d.keys():\n        if l[i-1] == d[l[i]]:\n            l.pop(i-1)\n            l.pop(i-1)",
+        "detail": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "documentation": {}
+    },
+    {
+        "label": "equal",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "description": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "peekOfCode": "equal = 1\nwhile(l):\n    if not i<len(l):\n        equal = 0\n        break\n    if l[i] in d.keys():\n        if l[i-1] == d[l[i]]:\n            l.pop(i-1)\n            l.pop(i-1)\n            i = i-2",
+        "detail": "My_Programs.My_Programs.Multiple_bracket_checker",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.odd_even_count_in_list",
+        "description": "My_Programs.My_Programs.odd_even_count_in_list",
+        "peekOfCode": "l = [2,4,3,14,15,10]\ne_count = 0 #initaliztion\no_count = 0\nfor i in range(0,6):  #iteration\n    if l[i]%2==0:\n        e_count = e_count+1\n    else:\n        o_count = o_count+1\nprint(e_count)\nprint(o_count)",
+        "detail": "My_Programs.My_Programs.odd_even_count_in_list",
+        "documentation": {}
+    },
+    {
+        "label": "e_count",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.odd_even_count_in_list",
+        "description": "My_Programs.My_Programs.odd_even_count_in_list",
+        "peekOfCode": "e_count = 0 #initaliztion\no_count = 0\nfor i in range(0,6):  #iteration\n    if l[i]%2==0:\n        e_count = e_count+1\n    else:\n        o_count = o_count+1\nprint(e_count)\nprint(o_count)",
+        "detail": "My_Programs.My_Programs.odd_even_count_in_list",
+        "documentation": {}
+    },
+    {
+        "label": "o_count",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.odd_even_count_in_list",
+        "description": "My_Programs.My_Programs.odd_even_count_in_list",
+        "peekOfCode": "o_count = 0\nfor i in range(0,6):  #iteration\n    if l[i]%2==0:\n        e_count = e_count+1\n    else:\n        o_count = o_count+1\nprint(e_count)\nprint(o_count)",
+        "detail": "My_Programs.My_Programs.odd_even_count_in_list",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.odd_or_even",
+        "description": "My_Programs.My_Programs.odd_or_even",
+        "peekOfCode": "a = int(input(\"Enter an number: \"))\nif a%2==0:\n    print('Even')                     #if a%2==1:\nelse:\n    print('odd')",
+        "detail": "My_Programs.My_Programs.odd_or_even",
+        "documentation": {}
+    },
+    {
+        "label": "publication",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "class publication:\n    company = 'ABC company'\n    CM = 'kumar'\n    def __init__(self,title,price):\n        self.title = title\n        self.__price = price + (price / 100) * 5\n    def price_incre(self):\n        in_price = self.price\n        self.price = in_price+(in_price/100)*5\nclass peroidic(publication):",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "peroidic",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "class peroidic(publication):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title,price)\n        self.__publisher = publisher\n        self.period = period\nclass Book(publication):\n    def __init__(self,title,author,pages,price):\n        super().__init__(title,price)\n        self.author = author\n        self.pages = pages",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "class Book(publication):\n    def __init__(self,title,author,pages,price):\n        super().__init__(title,price)\n        self.author = author\n        self.pages = pages\nclass Magazine(peroidic):\n    def __init__(self, title, publisher, price, period):\n        peroidic.__init__(self, title, publisher, price, period)\nclass Newspaper(peroidic):\n    def __init__(self, title, publisher, price, period):",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "Magazine",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "class Magazine(peroidic):\n    def __init__(self, title, publisher, price, period):\n        peroidic.__init__(self, title, publisher, price, period)\nclass Newspaper(peroidic):\n    def __init__(self, title, publisher, price, period):\n        peroidic.__init__(self, title, publisher, price, period)\nb1 = Book(\"wings of fire\", \"Aldous Huxley\", 311, 29.0)\nn1 = Newspaper(\"Ind Times\", \"India Times Company\", 6.0, \"Daily\")    #construtor\nm1 = Magazine(\"Scientific\", \"Nature\", 5.99, \"Monthly\")\npublication.CM = 'kala'",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "Newspaper",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "class Newspaper(peroidic):\n    def __init__(self, title, publisher, price, period):\n        peroidic.__init__(self, title, publisher, price, period)\nb1 = Book(\"wings of fire\", \"Aldous Huxley\", 311, 29.0)\nn1 = Newspaper(\"Ind Times\", \"India Times Company\", 6.0, \"Daily\")    #construtor\nm1 = Magazine(\"Scientific\", \"Nature\", 5.99, \"Monthly\")\npublication.CM = 'kala'\nprint(m1.CM)",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "b1 = Book(\"wings of fire\", \"Aldous Huxley\", 311, 29.0)\nn1 = Newspaper(\"Ind Times\", \"India Times Company\", 6.0, \"Daily\")    #construtor\nm1 = Magazine(\"Scientific\", \"Nature\", 5.99, \"Monthly\")\npublication.CM = 'kala'\nprint(m1.CM)",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "n1 = Newspaper(\"Ind Times\", \"India Times Company\", 6.0, \"Daily\")    #construtor\nm1 = Magazine(\"Scientific\", \"Nature\", 5.99, \"Monthly\")\npublication.CM = 'kala'\nprint(m1.CM)",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "m1 = Magazine(\"Scientific\", \"Nature\", 5.99, \"Monthly\")\npublication.CM = 'kala'\nprint(m1.CM)",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "publication.CM",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "description": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "peekOfCode": "publication.CM = 'kala'\nprint(m1.CM)",
+        "detail": "My_Programs.My_Programs.OPPs_book_magz_nwespaper_program",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.OPPs_methods",
+        "description": "My_Programs.My_Programs.OPPs_methods",
+        "peekOfCode": "class student:\n    school = 'ABC school'\n    def __init__(self,name,age):\n        self.name = name\n        self.age = age\n    def show(self): #instance method\n        print(self.name)\n        print(self.age)\n    @classmethod\n    def class_show(cls):    #class method",
+        "detail": "My_Programs.My_Programs.OPPs_methods",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.OPPs_methods",
+        "description": "My_Programs.My_Programs.OPPs_methods",
+        "peekOfCode": "s1 = student('kumar',15)\n#s1.show()\nstudent.class_show()\n#student.address()\n#s1.address()",
+        "detail": "My_Programs.My_Programs.OPPs_methods",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.os_module_example",
+        "description": "My_Programs.My_Programs.os_module_example",
+        "peekOfCode": "path = os.getcwd() #current working dir\nprint('path: ',path)\nnew_folder = 'dinesh'\nprint('new_folder:',new_folder)\nwhole_path = os.path.join(path,new_folder)\nprint('whole_path using join func',whole_path)\ntry:\n    os.mkdir(whole_path) # to create new folder\nexcept:\n    print('file already exists')",
+        "detail": "My_Programs.My_Programs.os_module_example",
+        "documentation": {}
+    },
+    {
+        "label": "new_folder",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.os_module_example",
+        "description": "My_Programs.My_Programs.os_module_example",
+        "peekOfCode": "new_folder = 'dinesh'\nprint('new_folder:',new_folder)\nwhole_path = os.path.join(path,new_folder)\nprint('whole_path using join func',whole_path)\ntry:\n    os.mkdir(whole_path) # to create new folder\nexcept:\n    print('file already exists')\nos.rmdir(whole_path)",
+        "detail": "My_Programs.My_Programs.os_module_example",
+        "documentation": {}
+    },
+    {
+        "label": "whole_path",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.os_module_example",
+        "description": "My_Programs.My_Programs.os_module_example",
+        "peekOfCode": "whole_path = os.path.join(path,new_folder)\nprint('whole_path using join func',whole_path)\ntry:\n    os.mkdir(whole_path) # to create new folder\nexcept:\n    print('file already exists')\nos.rmdir(whole_path)",
+        "detail": "My_Programs.My_Programs.os_module_example",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.os_module_example2",
+        "description": "My_Programs.My_Programs.os_module_example2",
+        "peekOfCode": "path = os.getcwd()\nprint(path)\nfolder = 'sample'\nwhole_path = os.path.join(path,folder,'new1','new2')\nprint(whole_path)\n#os.mkdir(whole_path)  #create single folder\n#os.makedirs(whole_path) #create multiple\nprint(os.listdir(path))\n#\n#",
+        "detail": "My_Programs.My_Programs.os_module_example2",
+        "documentation": {}
+    },
+    {
+        "label": "folder",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.os_module_example2",
+        "description": "My_Programs.My_Programs.os_module_example2",
+        "peekOfCode": "folder = 'sample'\nwhole_path = os.path.join(path,folder,'new1','new2')\nprint(whole_path)\n#os.mkdir(whole_path)  #create single folder\n#os.makedirs(whole_path) #create multiple\nprint(os.listdir(path))\n#\n#\n# os.mkdir('C:\\\\Users\\dines\\PycharmProjects\\pythonProject2\\sample')",
+        "detail": "My_Programs.My_Programs.os_module_example2",
+        "documentation": {}
+    },
+    {
+        "label": "whole_path",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.os_module_example2",
+        "description": "My_Programs.My_Programs.os_module_example2",
+        "peekOfCode": "whole_path = os.path.join(path,folder,'new1','new2')\nprint(whole_path)\n#os.mkdir(whole_path)  #create single folder\n#os.makedirs(whole_path) #create multiple\nprint(os.listdir(path))\n#\n#\n# os.mkdir('C:\\\\Users\\dines\\PycharmProjects\\pythonProject2\\sample')",
+        "detail": "My_Programs.My_Programs.os_module_example2",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.palindrome",
+        "description": "My_Programs.My_Programs.palindrome",
+        "peekOfCode": "s = 'malayalom'\nstart = 0\nend = len(s)-1\npalindrome= 1\nwhile start < end:\n    if s[start]!=s[end]:\n        palindrome = 0\n        break\n    start+=1    #start = start+1\n    end-=1      #end = end-1",
+        "detail": "My_Programs.My_Programs.palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.palindrome",
+        "description": "My_Programs.My_Programs.palindrome",
+        "peekOfCode": "start = 0\nend = len(s)-1\npalindrome= 1\nwhile start < end:\n    if s[start]!=s[end]:\n        palindrome = 0\n        break\n    start+=1    #start = start+1\n    end-=1      #end = end-1\nif palindrome==1:",
+        "detail": "My_Programs.My_Programs.palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.palindrome",
+        "description": "My_Programs.My_Programs.palindrome",
+        "peekOfCode": "end = len(s)-1\npalindrome= 1\nwhile start < end:\n    if s[start]!=s[end]:\n        palindrome = 0\n        break\n    start+=1    #start = start+1\n    end-=1      #end = end-1\nif palindrome==1:\n    print(s,'is palindrome')",
+        "detail": "My_Programs.My_Programs.palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern3",
+        "description": "My_Programs.My_Programs.pattern3",
+        "peekOfCode": "n = 4\nstart = 1\nspace = 3\nfor i in range(n*2-1):\n    print(' * '*start+'   '*space)\n    if i<n-1:\n        start+=1\n        space-=1\n    else:\n        start-=1",
+        "detail": "My_Programs.My_Programs.pattern3",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern3",
+        "description": "My_Programs.My_Programs.pattern3",
+        "peekOfCode": "start = 1\nspace = 3\nfor i in range(n*2-1):\n    print(' * '*start+'   '*space)\n    if i<n-1:\n        start+=1\n        space-=1\n    else:\n        start-=1\n        space+=1",
+        "detail": "My_Programs.My_Programs.pattern3",
+        "documentation": {}
+    },
+    {
+        "label": "space",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern3",
+        "description": "My_Programs.My_Programs.pattern3",
+        "peekOfCode": "space = 3\nfor i in range(n*2-1):\n    print(' * '*start+'   '*space)\n    if i<n-1:\n        start+=1\n        space-=1\n    else:\n        start-=1\n        space+=1",
+        "detail": "My_Programs.My_Programs.pattern3",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern4",
+        "description": "My_Programs.My_Programs.pattern4",
+        "peekOfCode": "n = int(input('enter n:'))\nstart = n-1\nfor i in range(n*2-1):\n    for j in range(n):\n        if j>=start:\n            print(' * ',end='')\n        else:\n            print('   ',end='')\n    if i<n-1:\n        start-=1",
+        "detail": "My_Programs.My_Programs.pattern4",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern4",
+        "description": "My_Programs.My_Programs.pattern4",
+        "peekOfCode": "start = n-1\nfor i in range(n*2-1):\n    for j in range(n):\n        if j>=start:\n            print(' * ',end='')\n        else:\n            print('   ',end='')\n    if i<n-1:\n        start-=1\n    else:",
+        "detail": "My_Programs.My_Programs.pattern4",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern_diamond",
+        "description": "My_Programs.My_Programs.pattern_diamond",
+        "peekOfCode": "n = int(input('Enter n: '))\nstart = n-1\nend = n-1\nfor r in range((n*2)-1):\n    for c in range((n*2)-1):\n        if c>=start and c<=end:\n            print('*',end='')\n        else:\n            print(' ',end='')\n    print('')",
+        "detail": "My_Programs.My_Programs.pattern_diamond",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern_diamond",
+        "description": "My_Programs.My_Programs.pattern_diamond",
+        "peekOfCode": "start = n-1\nend = n-1\nfor r in range((n*2)-1):\n    for c in range((n*2)-1):\n        if c>=start and c<=end:\n            print('*',end='')\n        else:\n            print(' ',end='')\n    print('')\n    if r<n-1:",
+        "detail": "My_Programs.My_Programs.pattern_diamond",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.pattern_diamond",
+        "description": "My_Programs.My_Programs.pattern_diamond",
+        "peekOfCode": "end = n-1\nfor r in range((n*2)-1):\n    for c in range((n*2)-1):\n        if c>=start and c<=end:\n            print('*',end='')\n        else:\n            print(' ',end='')\n    print('')\n    if r<n-1:\n        start -=1   #start = start-1",
+        "detail": "My_Programs.My_Programs.pattern_diamond",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.prime",
+        "description": "My_Programs.My_Programs.prime",
+        "peekOfCode": "n = 10\nprime = 1\n#if 7%2 ==0 or 7%3==0 or 7%4==0:\nfor i in range(2,n):\n    if n%i==0:\n        prime = 0\n        break\nif prime ==1:\n    print('its prime')\nelse:",
+        "detail": "My_Programs.My_Programs.prime",
+        "documentation": {}
+    },
+    {
+        "label": "prime",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.prime",
+        "description": "My_Programs.My_Programs.prime",
+        "peekOfCode": "prime = 1\n#if 7%2 ==0 or 7%3==0 or 7%4==0:\nfor i in range(2,n):\n    if n%i==0:\n        prime = 0\n        break\nif prime ==1:\n    print('its prime')\nelse:\n    print('not prime')",
+        "detail": "My_Programs.My_Programs.prime",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "a = int(input())    #typecasting\nif a>0:\n    print('the given number is positive')\nelif a<0:   #0<0\n    print('the given number is negative')\nelse:\n    print('the given number is zero')\na = int(input('Enter a: '))\nb = int(input('Enter b: '))\nif a>b: #10>15",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "a = int(input('Enter a: '))\nb = int(input('Enter b: '))\nif a>b: #10>15\n    print('a is greater than b')\nelif b>a:   #a<b 15>10\n    print('b is greater than a')\nelse:\n    print('both are equal')\ns1 = input('Enter string1: ')\ns2 = input('Enter string2: ')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "b = int(input('Enter b: '))\nif a>b: #10>15\n    print('a is greater than b')\nelif b>a:   #a<b 15>10\n    print('b is greater than a')\nelse:\n    print('both are equal')\ns1 = input('Enter string1: ')\ns2 = input('Enter string2: ')\nif s1.casefold()==s2.casefold():    #if s1.lower() == s2.lower()",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "s1 = input('Enter string1: ')\ns2 = input('Enter string2: ')\nif s1.casefold()==s2.casefold():    #if s1.lower() == s2.lower()\n    print('s1 and s2 are equal')\nelse:\n    print('s1 and s2 are not equal')\nchar = input('Enter a charater: ')\nchar = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "s2 = input('Enter string2: ')\nif s1.casefold()==s2.casefold():    #if s1.lower() == s2.lower()\n    print('s1 and s2 are equal')\nelse:\n    print('s1 and s2 are not equal')\nchar = input('Enter a charater: ')\nchar = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')\nelse:",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "char",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "char = input('Enter a charater: ')\nchar = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')\nelse:\n    print('its not vowel')\nchar = input('Enter a charater: ')\nchar = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "char",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "char = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')\nelse:\n    print('its not vowel')\nchar = input('Enter a charater: ')\nchar = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')\nelse:",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "char",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "char = input('Enter a charater: ')\nchar = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')\nelse:\n    print('its not vowel')\nchar = input('Enter a charater: ')\nchar = char.lower()\nvowels = 'aeiou'    # vowels = ['a','e','i','u','o']\nif char in vowels:",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "char",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "char = char.lower()\nif char=='a' or char=='e' or char=='i' or char=='o' or char=='u':\n    print('its vowel')\nelse:\n    print('its not vowel')\nchar = input('Enter a charater: ')\nchar = char.lower()\nvowels = 'aeiou'    # vowels = ['a','e','i','u','o']\nif char in vowels:\n    print(char,'its vowel')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "char",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "char = input('Enter a charater: ')\nchar = char.lower()\nvowels = 'aeiou'    # vowels = ['a','e','i','u','o']\nif char in vowels:\n    print(char,'its vowel')\nelse:\n    print(char,'its not vowel')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "char",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "char = char.lower()\nvowels = 'aeiou'    # vowels = ['a','e','i','u','o']\nif char in vowels:\n    print(char,'its vowel')\nelse:\n    print(char,'its not vowel')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "vowels",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Programming_example",
+        "description": "My_Programs.My_Programs.Programming_example",
+        "peekOfCode": "vowels = 'aeiou'    # vowels = ['a','e','i','u','o']\nif char in vowels:\n    print(char,'its vowel')\nelse:\n    print(char,'its not vowel')",
+        "detail": "My_Programs.My_Programs.Programming_example",
+        "documentation": {}
+    },
+    {
+        "label": "screte",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.random_module_lottery_game",
+        "description": "My_Programs.My_Programs.random_module_lottery_game",
+        "peekOfCode": "screte = random.randint(1,100)\nprint(screte)\nchance = 4\nuser_input = int(input('Enter an number: '))\nwhile user_input!=screte and chance>0:\n    if user_input<screte:\n        print('the entered number was less than screte')\n    elif user_input>screte:\n        print('the entered number was greater than screte')\n    user_input = int(input('Enter an number: '))",
+        "detail": "My_Programs.My_Programs.random_module_lottery_game",
+        "documentation": {}
+    },
+    {
+        "label": "chance",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.random_module_lottery_game",
+        "description": "My_Programs.My_Programs.random_module_lottery_game",
+        "peekOfCode": "chance = 4\nuser_input = int(input('Enter an number: '))\nwhile user_input!=screte and chance>0:\n    if user_input<screte:\n        print('the entered number was less than screte')\n    elif user_input>screte:\n        print('the entered number was greater than screte')\n    user_input = int(input('Enter an number: '))\n    chance-=1\n    print('chance remaining ',chance)",
+        "detail": "My_Programs.My_Programs.random_module_lottery_game",
+        "documentation": {}
+    },
+    {
+        "label": "user_input",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.random_module_lottery_game",
+        "description": "My_Programs.My_Programs.random_module_lottery_game",
+        "peekOfCode": "user_input = int(input('Enter an number: '))\nwhile user_input!=screte and chance>0:\n    if user_input<screte:\n        print('the entered number was less than screte')\n    elif user_input>screte:\n        print('the entered number was greater than screte')\n    user_input = int(input('Enter an number: '))\n    chance-=1\n    print('chance remaining ',chance)\nif screte==user_input:",
+        "detail": "My_Programs.My_Programs.random_module_lottery_game",
+        "documentation": {}
+    },
+    {
+        "label": "school",
+        "kind": 6,
+        "importPath": "My_Programs.My_Programs.school_class",
+        "description": "My_Programs.My_Programs.school_class",
+        "peekOfCode": "class school:\n    school_name = 'ABC school'\n    prin = 'kala'   #class attribute, which is common to all object\n    def __init__(self,name,age):\n        self.name = name    #obj attributes\n        self.age = age\n    def show(self):\n        print(self.name)\n        print(self.age)\n        print(self.prin)",
+        "detail": "My_Programs.My_Programs.school_class",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.school_class",
+        "description": "My_Programs.My_Programs.school_class",
+        "peekOfCode": "s1 = school('kumar',19)   #constructor ,call __init__ method\nprint(s1.prin)\nschool.change_prin('ganesh')\nprint(s1.prin)",
+        "detail": "My_Programs.My_Programs.school_class",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Selection_sort",
+        "description": "My_Programs.My_Programs.Selection_sort",
+        "peekOfCode": "l = [12, 14, 10, 9, 100]\nn = len(l)\nfor i in range(n):\n    print(l)\n    min_p = i\n    for j in range(i+1,n):\n        if l[j]< l[min_p]:\n            min_p = j\n    (l[i], l[min_p]) = (l[min_p],l[i])\nprint(l)",
+        "detail": "My_Programs.My_Programs.Selection_sort",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Selection_sort",
+        "description": "My_Programs.My_Programs.Selection_sort",
+        "peekOfCode": "n = len(l)\nfor i in range(n):\n    print(l)\n    min_p = i\n    for j in range(i+1,n):\n        if l[j]< l[min_p]:\n            min_p = j\n    (l[i], l[min_p]) = (l[min_p],l[i])\nprint(l)",
+        "detail": "My_Programs.My_Programs.Selection_sort",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Speech_to_text",
+        "description": "My_Programs.My_Programs.Speech_to_text",
+        "peekOfCode": "r = sr.Recognizer()\ntext = ''\ncount = 0\nwith sr.Microphone() as source:\n    while True:\n        if 'end' in text:\n            break\n        print('recording started......')\n        audio = r.record(source,duration=5) #record audio for 5sec\n        f = open('audio_rec'+str(count)+'.wav','wb')",
+        "detail": "My_Programs.My_Programs.Speech_to_text",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Speech_to_text",
+        "description": "My_Programs.My_Programs.Speech_to_text",
+        "peekOfCode": "text = ''\ncount = 0\nwith sr.Microphone() as source:\n    while True:\n        if 'end' in text:\n            break\n        print('recording started......')\n        audio = r.record(source,duration=5) #record audio for 5sec\n        f = open('audio_rec'+str(count)+'.wav','wb')\n        count+=1",
+        "detail": "My_Programs.My_Programs.Speech_to_text",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Speech_to_text",
+        "description": "My_Programs.My_Programs.Speech_to_text",
+        "peekOfCode": "count = 0\nwith sr.Microphone() as source:\n    while True:\n        if 'end' in text:\n            break\n        print('recording started......')\n        audio = r.record(source,duration=5) #record audio for 5sec\n        f = open('audio_rec'+str(count)+'.wav','wb')\n        count+=1\n        f.write(audio.get_wav_data())",
+        "detail": "My_Programs.My_Programs.Speech_to_text",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "description": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "peekOfCode": "r = sr.Recognizer()\ntext = ''\nfile = open('C://logic 360//speech_text.txt','w')\ncount = 0\nwith sr.Microphone() as source:\n    while('end' not in text):\n        print('audio rec started.....')\n        audio = r.record(source,duration=5)\n        f = open(\"C://logic 360//microphone-results\"+str(count)+\".wav\", \"wb\")\n        f.write(audio.get_wav_data())",
+        "detail": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "description": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "peekOfCode": "text = ''\nfile = open('C://logic 360//speech_text.txt','w')\ncount = 0\nwith sr.Microphone() as source:\n    while('end' not in text):\n        print('audio rec started.....')\n        audio = r.record(source,duration=5)\n        f = open(\"C://logic 360//microphone-results\"+str(count)+\".wav\", \"wb\")\n        f.write(audio.get_wav_data())\n        f.close()",
+        "detail": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "description": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "peekOfCode": "file = open('C://logic 360//speech_text.txt','w')\ncount = 0\nwith sr.Microphone() as source:\n    while('end' not in text):\n        print('audio rec started.....')\n        audio = r.record(source,duration=5)\n        f = open(\"C://logic 360//microphone-results\"+str(count)+\".wav\", \"wb\")\n        f.write(audio.get_wav_data())\n        f.close()\n        print(audio)",
+        "detail": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "description": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "peekOfCode": "count = 0\nwith sr.Microphone() as source:\n    while('end' not in text):\n        print('audio rec started.....')\n        audio = r.record(source,duration=5)\n        f = open(\"C://logic 360//microphone-results\"+str(count)+\".wav\", \"wb\")\n        f.write(audio.get_wav_data())\n        f.close()\n        print(audio)\n        print('audio recorded.....')",
+        "detail": "My_Programs.My_Programs.speech_to_text_with_audiosaving",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Square_pattern",
+        "description": "My_Programs.My_Programs.Square_pattern",
+        "peekOfCode": "n = int(input('Enter n:'))\ns,e,half = 0,n-1,(n//2)\nfor i in range(n):\n    for j in range(n):\n        if i<(half):\n            if (s<=j<=e and i%2==0) or (j<s and j%2==0) or (j>e and j%2!=0):\n                print('* ',end=' ')\n            else:\n                print('  ',end=' ')\n        else:",
+        "detail": "My_Programs.My_Programs.Square_pattern",
+        "documentation": {}
+    },
+    {
+        "label": "s,e,half",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Square_pattern",
+        "description": "My_Programs.My_Programs.Square_pattern",
+        "peekOfCode": "s,e,half = 0,n-1,(n//2)\nfor i in range(n):\n    for j in range(n):\n        if i<(half):\n            if (s<=j<=e and i%2==0) or (j<s and j%2==0) or (j>e and j%2!=0):\n                print('* ',end=' ')\n            else:\n                print('  ',end=' ')\n        else:\n            if (s<=j<=e and i%2!=0) or (j<=s and j%2==0) or (j>=e and j%2!=0):",
+        "detail": "My_Programs.My_Programs.Square_pattern",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_list",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "description": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "peekOfCode": "def sum_of_list(list1):\n    s = 0\n    for i in range(len(list1)):\n        s += list1[i]\n    return s\nl = [3,5,7,3,6]\nprint(sum_of_list(l))\nprint(sum(l))\nl2 = [3,6,8,4,4,7,8]\nprint(sum_of_list(l2))",
+        "detail": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "description": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "peekOfCode": "l = [3,5,7,3,6]\nprint(sum_of_list(l))\nprint(sum(l))\nl2 = [3,6,8,4,4,7,8]\nprint(sum_of_list(l2))\nprint(sum(l))\nl3 = [3,5,6]\nprint(sum_of_list(l3))\nprint(sum(l))",
+        "detail": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "documentation": {}
+    },
+    {
+        "label": "l2",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "description": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "peekOfCode": "l2 = [3,6,8,4,4,7,8]\nprint(sum_of_list(l2))\nprint(sum(l))\nl3 = [3,5,6]\nprint(sum_of_list(l3))\nprint(sum(l))",
+        "detail": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "documentation": {}
+    },
+    {
+        "label": "l3",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "description": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "peekOfCode": "l3 = [3,5,6]\nprint(sum_of_list(l3))\nprint(sum(l))",
+        "detail": "My_Programs.My_Programs.Sum_of_elements_using_function",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "description": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "peekOfCode": "s = input('Enter a string:')\ns.lower()\nu,l,d,sp = 0,0,0,0\nupper = [chr(i) for i in range(97,123)]\nlower = [chr(i) for i in range(65,65+26)]\ndigit = [i for i in range(0,10)]\nprint(upper)\nprint(lower)\nprint(digit)\nfor char in s:",
+        "detail": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "documentation": {}
+    },
+    {
+        "label": "u,l,d,sp",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "description": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "peekOfCode": "u,l,d,sp = 0,0,0,0\nupper = [chr(i) for i in range(97,123)]\nlower = [chr(i) for i in range(65,65+26)]\ndigit = [i for i in range(0,10)]\nprint(upper)\nprint(lower)\nprint(digit)\nfor char in s:\n    if char in upper:\n        u+=1",
+        "detail": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "documentation": {}
+    },
+    {
+        "label": "upper",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "description": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "peekOfCode": "upper = [chr(i) for i in range(97,123)]\nlower = [chr(i) for i in range(65,65+26)]\ndigit = [i for i in range(0,10)]\nprint(upper)\nprint(lower)\nprint(digit)\nfor char in s:\n    if char in upper:\n        u+=1\n    elif char.islower():",
+        "detail": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "description": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "peekOfCode": "lower = [chr(i) for i in range(65,65+26)]\ndigit = [i for i in range(0,10)]\nprint(upper)\nprint(lower)\nprint(digit)\nfor char in s:\n    if char in upper:\n        u+=1\n    elif char.islower():\n        l+=1",
+        "detail": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "documentation": {}
+    },
+    {
+        "label": "digit",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "description": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "peekOfCode": "digit = [i for i in range(0,10)]\nprint(upper)\nprint(lower)\nprint(digit)\nfor char in s:\n    if char in upper:\n        u+=1\n    elif char.islower():\n        l+=1\n    elif char.isdigit():",
+        "detail": "My_Programs.My_Programs.upper_lower_digit_count_without_inbuildMethods",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.user_module_example",
+        "description": "My_Programs.My_Programs.user_module_example",
+        "peekOfCode": "def add(a,b):\n    return a+b\ndef factorial(n):\n    ''' it accept one arg n and return n!'''    #docstring\n    fact = 1\n    for i in range(1,n+1):\n        fact = fact*i\n    return fact",
+        "detail": "My_Programs.My_Programs.user_module_example",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "My_Programs.My_Programs.user_module_example",
+        "description": "My_Programs.My_Programs.user_module_example",
+        "peekOfCode": "def factorial(n):\n    ''' it accept one arg n and return n!'''    #docstring\n    fact = 1\n    for i in range(1,n+1):\n        fact = fact*i\n    return fact",
+        "detail": "My_Programs.My_Programs.user_module_example",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.user_module_example",
+        "description": "My_Programs.My_Programs.user_module_example",
+        "peekOfCode": "pi = 3.14\ndef add(a,b):\n    return a+b\ndef factorial(n):\n    ''' it accept one arg n and return n!'''    #docstring\n    fact = 1\n    for i in range(1,n+1):\n        fact = fact*i\n    return fact",
+        "detail": "My_Programs.My_Programs.user_module_example",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.vowel_count",
+        "description": "My_Programs.My_Programs.vowel_count",
+        "peekOfCode": "s = 'lOgina360'\nv_count = 0\nfor i in range(len(s)):\n    if s[i].lower()=='a'or s[i].lower()=='e' or s[i].lower()=='i' or s[i].lower()=='o' or s[i].lower()=='u':\n        v_count+=1\nprint(v_count)\nv_count=0\nfor i in range(len(s)):\n    if s[i].lower() in 'aeiou':\n        v_count += 1",
+        "detail": "My_Programs.My_Programs.vowel_count",
+        "documentation": {}
+    },
+    {
+        "label": "v_count",
+        "kind": 5,
+        "importPath": "My_Programs.My_Programs.vowel_count",
+        "description": "My_Programs.My_Programs.vowel_count",
+        "peekOfCode": "v_count = 0\nfor i in range(len(s)):\n    if s[i].lower()=='a'or s[i].lower()=='e' or s[i].lower()=='i' or s[i].lower()=='o' or s[i].lower()=='u':\n        v_count+=1\nprint(v_count)\nv_count=0\nfor i in range(len(s)):\n    if s[i].lower() in 'aeiou':\n        v_count += 1\nprint(v_count)",
+        "detail": "My_Programs.My_Programs.vowel_count",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "consecutive_vowels",
+        "description": "consecutive_vowels",
+        "peekOfCode": "count = 0\nmax_count = 0\nfor val in s:\n    if val.lower() in 'aeiou':\n        count +=1                   #if given strins=g in the vowel it should increment the count value\n    else:\n        if count > max_count:       # count greaterthan maxcount\n            max_count = count       #assign count value into maxcount\n        count = 0                   # the reset the count value into 0\nprint(max_count)",
+        "detail": "consecutive_vowels",
+        "documentation": {}
+    },
+    {
+        "label": "max_count",
+        "kind": 5,
+        "importPath": "consecutive_vowels",
+        "description": "consecutive_vowels",
+        "peekOfCode": "max_count = 0\nfor val in s:\n    if val.lower() in 'aeiou':\n        count +=1                   #if given strins=g in the vowel it should increment the count value\n    else:\n        if count > max_count:       # count greaterthan maxcount\n            max_count = count       #assign count value into maxcount\n        count = 0                   # the reset the count value into 0\nprint(max_count)",
+        "detail": "consecutive_vowels",
+        "documentation": {}
+    },
+    {
+        "label": "alphabet",
+        "kind": 5,
+        "importPath": "count char",
+        "description": "count char",
+        "peekOfCode": "alphabet = 0\ndigit = 0\nspecial_char = 0\nvow='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'\nall_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']\nfor i in range (len(s)):\n    if s[i] in vow:\n        alphabet +=1\n    elif s[i] in all_digits:\n            digit +=1",
+        "detail": "count char",
+        "documentation": {}
+    },
+    {
+        "label": "digit",
+        "kind": 5,
+        "importPath": "count char",
+        "description": "count char",
+        "peekOfCode": "digit = 0\nspecial_char = 0\nvow='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'\nall_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']\nfor i in range (len(s)):\n    if s[i] in vow:\n        alphabet +=1\n    elif s[i] in all_digits:\n            digit +=1\n    else:",
+        "detail": "count char",
+        "documentation": {}
+    },
+    {
+        "label": "special_char",
+        "kind": 5,
+        "importPath": "count char",
+        "description": "count char",
+        "peekOfCode": "special_char = 0\nvow='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'\nall_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']\nfor i in range (len(s)):\n    if s[i] in vow:\n        alphabet +=1\n    elif s[i] in all_digits:\n            digit +=1\n    else:\n            special_char +=1",
+        "detail": "count char",
+        "documentation": {}
+    },
+    {
+        "label": "all_digits",
+        "kind": 5,
+        "importPath": "count char",
+        "description": "count char",
+        "peekOfCode": "all_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']\nfor i in range (len(s)):\n    if s[i] in vow:\n        alphabet +=1\n    elif s[i] in all_digits:\n            digit +=1\n    else:\n            special_char +=1\nprint(\"alphabet in srting: \",alphabet)\nprint(\"digit in string: \",digit)",
+        "detail": "count char",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "DB_Connection",
+        "description": "DB_Connection",
+        "peekOfCode": "connection = sql.connect(user='root',\n            password='gowrisankar@88',\n            host='localhost',\n            database='world')   #open connection\nc = connection.cursor()\nc.execute('SELECT * FROM city;')\nd = {}\nl = c.fetchall()    #get data from DB\nfor id,city,cc,district,population in l:\n    if cc not in d.keys():",
+        "detail": "DB_Connection",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "DB_Connection",
+        "description": "DB_Connection",
+        "peekOfCode": "c = connection.cursor()\nc.execute('SELECT * FROM city;')\nd = {}\nl = c.fetchall()    #get data from DB\nfor id,city,cc,district,population in l:\n    if cc not in d.keys():\n        d[cc] = []  #creating new key\n    d[cc].append(city)\nprint(d['IND']) #getting indian cities name from dict\nc.execute('CREATE TABLE employee3 (name VARCHAR(50));')",
+        "detail": "DB_Connection",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "DB_Connection",
+        "description": "DB_Connection",
+        "peekOfCode": "d = {}\nl = c.fetchall()    #get data from DB\nfor id,city,cc,district,population in l:\n    if cc not in d.keys():\n        d[cc] = []  #creating new key\n    d[cc].append(city)\nprint(d['IND']) #getting indian cities name from dict\nc.execute('CREATE TABLE employee3 (name VARCHAR(50));')\nconnection.commit()     #commit make changes in DB\nconnection.close()  #close connection",
+        "detail": "DB_Connection",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "DB_Connection",
+        "description": "DB_Connection",
+        "peekOfCode": "l = c.fetchall()    #get data from DB\nfor id,city,cc,district,population in l:\n    if cc not in d.keys():\n        d[cc] = []  #creating new key\n    d[cc].append(city)\nprint(d['IND']) #getting indian cities name from dict\nc.execute('CREATE TABLE employee3 (name VARCHAR(50));')\nconnection.commit()     #commit make changes in DB\nconnection.close()  #close connection",
+        "detail": "DB_Connection",
+        "documentation": {}
+    },
+    {
+        "label": "make_decorator",
+        "kind": 2,
+        "importPath": "decrator_modules",
+        "description": "decrator_modules",
+        "peekOfCode": "def make_decorator(func): #decorator function\n    def inner():            #wrapper function\n        print('its decorator')\n        func()\n    return inner\n@make_decorator\ndef ordinary():\n    print('iam ordinary')\n# dec_fun = make_decorator(ordinary)    #inner == dec_func\n# dec_fun()       ",
+        "detail": "decrator_modules",
+        "documentation": {}
+    },
+    {
+        "label": "ordinary",
+        "kind": 2,
+        "importPath": "decrator_modules",
+        "description": "decrator_modules",
+        "peekOfCode": "def ordinary():\n    print('iam ordinary')\n# dec_fun = make_decorator(ordinary)    #inner == dec_func\n# dec_fun()       \n# divide the number which is greater by smaller\ndef smart_div(func):\n    def inner(a,b):\n        if b>a:\n            a,b=b,a\n        return func(a,b)",
+        "detail": "decrator_modules",
+        "documentation": {}
+    },
+    {
+        "label": "smart_div",
+        "kind": 2,
+        "importPath": "decrator_modules",
+        "description": "decrator_modules",
+        "peekOfCode": "def smart_div(func):\n    def inner(a,b):\n        if b>a:\n            a,b=b,a\n        return func(a,b)\n    return inner\n@smart_div\ndef div(a,b):\n    return a/b\nprint(div(10,2))",
+        "detail": "decrator_modules",
+        "documentation": {}
+    },
+    {
+        "label": "div",
+        "kind": 2,
+        "importPath": "decrator_modules",
+        "description": "decrator_modules",
+        "peekOfCode": "def div(a,b):\n    return a/b\nprint(div(10,2))\nprint(div(2,10))\n# dec = smart_div(div)  #without decorator",
+        "detail": "decrator_modules",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_runs",
+        "kind": 2,
+        "importPath": "dictionary_score_board",
+        "description": "dictionary_score_board",
+        "peekOfCode": "def sum_of_runs(l):\n    s=0\n    for i in range(len(l)):\n        s+=l[i]\n    return s\ndef average(l):\n    return sum_of_runs(l)/len(l)\nruns = [('rohit',234),('kohli',254),('rohit',34),('rohit',34),('kohli',54),('kohli',24)]\nd={}\nfor player,score in runs:",
+        "detail": "dictionary_score_board",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 2,
+        "importPath": "dictionary_score_board",
+        "description": "dictionary_score_board",
+        "peekOfCode": "def average(l):\n    return sum_of_runs(l)/len(l)\nruns = [('rohit',234),('kohli',254),('rohit',34),('rohit',34),('kohli',54),('kohli',24)]\nd={}\nfor player,score in runs:\n    # if player not in d.keys():\n    #     d[player]=[]     #creating key with empty list value\n    try:\n        d[player].append(score)\n    except KeyError:            # key not found",
+        "detail": "dictionary_score_board",
+        "documentation": {}
+    },
+    {
+        "label": "runs",
+        "kind": 5,
+        "importPath": "dictionary_score_board",
+        "description": "dictionary_score_board",
+        "peekOfCode": "runs = [('rohit',234),('kohli',254),('rohit',34),('rohit',34),('kohli',54),('kohli',24)]\nd={}\nfor player,score in runs:\n    # if player not in d.keys():\n    #     d[player]=[]     #creating key with empty list value\n    try:\n        d[player].append(score)\n    except KeyError:            # key not found\n        d[player]=[]            # creating key with empty list\n        d[player].append(score)",
+        "detail": "dictionary_score_board",
+        "documentation": {}
+    },
+    {
+        "label": "parent",
+        "kind": 6,
+        "importPath": "encpsulation_class",
+        "description": "encpsulation_class",
+        "peekOfCode": "class parent:\n    company = \"public company\"\n    _company = \"protect company\"\n    __company = \"private company\"\n    def __init__(self,name,_name,__name) :\n        self.name=name\n        self._name = _name\n        self.__name = __name\n    def show(self):\n        print(self.company)",
+        "detail": "encpsulation_class",
+        "documentation": {}
+    },
+    {
+        "label": "child",
+        "kind": 6,
+        "importPath": "encpsulation_class",
+        "description": "encpsulation_class",
+        "peekOfCode": "class child(parent):\n    def __init__(self):\n        pass\n    def show(self):\n        print(self.company)\n        print(self._company)\n        print(self.__company) #can't access as its private\np1= parent('ganesh','kala','sam')\nprint(p1._company)   # ethically should not access it is protected\n#print(p1.__company)  # not accessible as it private  ",
+        "detail": "encpsulation_class",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "encpsulation_class",
+        "description": "encpsulation_class",
+        "peekOfCode": "c1 = child()\nc1.show()\np1.show()",
+        "detail": "encpsulation_class",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "factorial_modules",
+        "description": "factorial_modules",
+        "peekOfCode": "def factorial(n):\n    f=1\n    for i in range(1,n+1):\n        f=f*i\n    return(f)",
+        "detail": "factorial_modules",
+        "documentation": {}
+    },
+    {
+        "label": "fib",
+        "kind": 2,
+        "importPath": "function_type add",
+        "description": "function_type add",
+        "peekOfCode": "def fib(n):\n    if n<=1:\n        return n\n    else:\n        return fib(n-1) + fib(n-2)\nn=6\nprint(fib)",
+        "detail": "function_type add",
+        "documentation": {}
+    },
+    {
+        "label": "getNumPairs",
+        "kind": 2,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "def getNumPairs(arr, l, r):\n    n = len(arr)\n    count = 0\n    # Sorting the array for efficient pair finding\n    arr.sort()\n    # Initializing left and right pointers\n    left = 0\n    right = n - 1\n    # Loop until left pointer crosses the right pointer\n    while left < right:",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "kthOccurrence",
+        "kind": 2,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "def kthOccurrence(X, arr, query_values):\n    result = []\n    for q in query_values:\n        count = 0\n        found = False\n        for i, num in enumerate(arr):\n            if num == X:\n                count += 1\n                if count == q:\n                    result.append(i + 1)",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "arr = [2, 3, 4, 5]\nl = 5\nr = 7\nprint(getNumPairs(arr, l, r))  # Output: 4\ndef kthOccurrence(X, arr, query_values):\n    result = []\n    for q in query_values:\n        count = 0\n        found = False\n        for i, num in enumerate(arr):",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "l = 5\nr = 7\nprint(getNumPairs(arr, l, r))  # Output: 4\ndef kthOccurrence(X, arr, query_values):\n    result = []\n    for q in query_values:\n        count = 0\n        found = False\n        for i, num in enumerate(arr):\n            if num == X:",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "r = 7\nprint(getNumPairs(arr, l, r))  # Output: 4\ndef kthOccurrence(X, arr, query_values):\n    result = []\n    for q in query_values:\n        count = 0\n        found = False\n        for i, num in enumerate(arr):\n            if num == X:\n                count += 1",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "arr = [1, 2, 20, 8, 8, 1, 2, 5, 8, 0]\nX = 8\nquery_values = [100353, 4, 2]\nprint(kthOccurrence(X, arr, query_values))",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "X = 8\nquery_values = [100353, 4, 2]\nprint(kthOccurrence(X, arr, query_values))",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "query_values",
+        "kind": 5,
+        "importPath": "ibm",
+        "description": "ibm",
+        "peekOfCode": "query_values = [100353, 4, 2]\nprint(kthOccurrence(X, arr, query_values))",
+        "detail": "ibm",
+        "documentation": {}
+    },
+    {
+        "label": "publication",
+        "kind": 6,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "class publication(ABC):\n    org = 'ABC pvt'\n    CEO = 'sam'\n    def __init__(self,title,price):\n        self.title = title\n        self.price = price\n    def show(self):\n        print(self.title)\n        print(self.price)\n    def discount(self):",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "periodic",
+        "kind": 6,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "class periodic(publication):\n    def __init__(self,title, publisher, price, period):\n        super().__init__(title,price)\n        self.period = period\n        self.publisher = publisher\n    def show(self):\n        super().show()\n        print(self.period)\n        print(self.publisher)\nclass Book(publication):",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "class Book(publication):\n    def __init__(self, title, author, pages, price):\n        super().__init__(title,price)\n        self.author = author\n        self.pages = pages\n    def show(self):\n        super().show()\n        print(self.pages)\n        print(self.author)\n    @staticmethod",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "Magazine",
+        "kind": 6,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "class Magazine(periodic):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title, publisher, price, period)\n    def show(self):\n        super().show()\n    @staticmethod\n    def address():\n        print('chennai')\nclass Newspaper(periodic):\n    def __init__(self, title, publisher, price, period):",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "Newspaper",
+        "kind": 6,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "class Newspaper(periodic):\n    def __init__(self, title, publisher, price, period):\n        super().__init__(title, publisher, price, period)\n    def show(self):\n        super().show()\n    # @staticmethod\n    # def address():\n    #     print('velachery')\nb1 = Book(\"wings of f\", \"Aldous Huxley\", 311, 29.0)\nn1 = Newspaper(\"NY Times\", \"New York Times Company\", 6.0, \"Daily\")",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "b1 = Book(\"wings of f\", \"Aldous Huxley\", 311, 29.0)\nn1 = Newspaper(\"NY Times\", \"New York Times Company\", 6.0, \"Daily\")\nm1 = Magazine(\"Scientific American\", \"Springer Nature\", 5.99, \"Monthly\")\n# p1 = publication('kanna',25)\n# print(b1.author)\n# print(n1.publisher)\n# print(b1.price, m1.price, n1.price)\n# print(n1.CEO)\n# print(m1.CEO)\nm1.show()",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "n1 = Newspaper(\"NY Times\", \"New York Times Company\", 6.0, \"Daily\")\nm1 = Magazine(\"Scientific American\", \"Springer Nature\", 5.99, \"Monthly\")\n# p1 = publication('kanna',25)\n# print(b1.author)\n# print(n1.publisher)\n# print(b1.price, m1.price, n1.price)\n# print(n1.CEO)\n# print(m1.CEO)\nm1.show()\nb1.address()",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 5,
+        "importPath": "inheritance class",
+        "description": "inheritance class",
+        "peekOfCode": "m1 = Magazine(\"Scientific American\", \"Springer Nature\", 5.99, \"Monthly\")\n# p1 = publication('kanna',25)\n# print(b1.author)\n# print(n1.publisher)\n# print(b1.price, m1.price, n1.price)\n# print(n1.CEO)\n# print(m1.CEO)\nm1.show()\nb1.address()",
+        "detail": "inheritance class",
+        "documentation": {}
+    },
+    {
+        "label": "lottery_no",
+        "kind": 5,
+        "importPath": "lottery_gussing_number",
+        "description": "lottery_gussing_number",
+        "peekOfCode": "lottery_no = r.randint(1, 100)\nno_of_chance = 5\nwhile no_of_chance > 0:\n    n=int(input('guess no: '))\n    if n == lottery_no:\n        print('congrats u won the lottery')\n        break\n    elif n>lottery_no:\n        print('num is greather than lottery')\n    else:",
+        "detail": "lottery_gussing_number",
+        "documentation": {}
+    },
+    {
+        "label": "no_of_chance",
+        "kind": 5,
+        "importPath": "lottery_gussing_number",
+        "description": "lottery_gussing_number",
+        "peekOfCode": "no_of_chance = 5\nwhile no_of_chance > 0:\n    n=int(input('guess no: '))\n    if n == lottery_no:\n        print('congrats u won the lottery')\n        break\n    elif n>lottery_no:\n        print('num is greather than lottery')\n    else:\n        print('num is lessthan than lottery')",
+        "detail": "lottery_gussing_number",
+        "documentation": {}
+    },
+    {
+        "label": "r1",
+        "kind": 5,
+        "importPath": "martix",
+        "description": "martix",
+        "peekOfCode": "r1 = int (input())\nc1= int(input())\nm1=[[int(i)for i in input().split()] for r in range(r1)]  #list comprehension\n# m1=[]\n# for i in range (r1):\n#     m1.append([int(i)for i in input().split()])\n# print(m1)\nr2=int(input())\nc2=int(input())\nm2= [[int(i)for i in input().split()] for r in range(r2)]  #list comprehension",
+        "detail": "martix",
+        "documentation": {}
+    },
+    {
+        "label": {
+            "name": "",
+            "kind": 2,
+            "peekOfCode": "def  merge(L,R):\n    m,n = len(L),len(R)\n    c,i,j,k = [],0,0,0\n    while k<m+n:\n        if i == m:\n            c.extend (R)"
+        },
+        "kind": 2,
+        "importPath": "merg_sort",
+        "description": "merg_sort",
+        "peekOfCode": "def  merge(L,R):\n    m,n = len(L),len(R)\n    c,i,j,k = [],0,0,0\n    while k<m+n:\n        if i == m:\n            c.extend (R)",
+        "detail": "merg_sort",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "def add(*args): #Non-keyword\n    s = 0\n    for i in range(len(args)):\n        s+=args[i]\n    print(args) #data in Tuple\n    return s\nprint(add(5,6,4,8,5,56))\ndef phone_book(**kwargs):   #keyword argument\n    print(kwargs)   #data saved as dict\nphone_book(name='Kumar',phone='9898983293',address='Chennai')",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "phone_book",
+        "kind": 2,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "def phone_book(**kwargs):   #keyword argument\n    print(kwargs)   #data saved as dict\nphone_book(name='Kumar',phone='9898983293',address='Chennai')\ndef sample(a,b,*values,**pairs):        #all in one  non-keyword ,kewords and first 2 arguments are necessary argument\n    print('fixed args: ',a,b)\n    print('Non-Keyword args: ',values)\n    print('Keyword args: ', pairs)\nsample(1,3,4,4,6,6,6,4,name='Kumar',phone='9898983293',address='Chennai')",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "sample",
+        "kind": 2,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "def sample(a,b,*values,**pairs):        #all in one  non-keyword ,kewords and first 2 arguments are necessary argument\n    print('fixed args: ',a,b)\n    print('Non-Keyword args: ',values)\n    print('Keyword args: ', pairs)\nsample(1,3,4,4,6,6,6,4,name='Kumar',phone='9898983293',address='Chennai')",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "school",
+        "kind": 6,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "class school:\n    pass  #nothing to pass the step in every condition\ns1 = school()  #constructor, creatin object\ns2 = school() #s1 ,s2,s3 are refer objects\ns3 = school()\nprint(s1)\n# class is a collection of object\n# construct the object with help of class\n#blueprint model for objects\nclass school:",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "school",
+        "kind": 6,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "class school:\n    principal = 'johnson'  #class atribut/variable\n    def __init__(self,name,age,rollno) :  #special method,initilize\n        self.name = name    # s1.name = kumar , object attribute/object variable\n        self.age = age   # name,age,rolno,prince are attribute\n        self.rolno = rollno\n    def change_newage(self, newage):  #instance method \n        self.age = newage\n    @classmethod  #decrator\n    def change_newpri(cls,new_pri):",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "s1 = school()  #constructor, creatin object\ns2 = school() #s1 ,s2,s3 are refer objects\ns3 = school()\nprint(s1)\n# class is a collection of object\n# construct the object with help of class\n#blueprint model for objects\nclass school:\n    principal = 'johnson'  #class atribut/variable\n    def __init__(self,name,age,rollno) :  #special method,initilize",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "s2 = school() #s1 ,s2,s3 are refer objects\ns3 = school()\nprint(s1)\n# class is a collection of object\n# construct the object with help of class\n#blueprint model for objects\nclass school:\n    principal = 'johnson'  #class atribut/variable\n    def __init__(self,name,age,rollno) :  #special method,initilize\n        self.name = name    # s1.name = kumar , object attribute/object variable",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "s3",
+        "kind": 5,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "s3 = school()\nprint(s1)\n# class is a collection of object\n# construct the object with help of class\n#blueprint model for objects\nclass school:\n    principal = 'johnson'  #class atribut/variable\n    def __init__(self,name,age,rollno) :  #special method,initilize\n        self.name = name    # s1.name = kumar , object attribute/object variable\n        self.age = age   # name,age,rolno,prince are attribute",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "s1 = school(\"kumar\",12,543)  #constructor ,creating object\ns2 = school('kannan',13,532)\nprint(s2.principal)\n#school.change_newpri(school,\"mani\") #without decrator\nschool.change_newpri(\"mani\") #with decrator\nprint(s2.principal)\ns1.address()  # obj can't able to call static method ,coz no self but using decrator we can call\nschool.address()",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "oops class",
+        "description": "oops class",
+        "peekOfCode": "s2 = school('kannan',13,532)\nprint(s2.principal)\n#school.change_newpri(school,\"mani\") #without decrator\nschool.change_newpri(\"mani\") #with decrator\nprint(s2.principal)\ns1.address()  # obj can't able to call static method ,coz no self but using decrator we can call\nschool.address()",
+        "detail": "oops class",
+        "documentation": {}
+    },
+    {
+        "label": "folder_name",
+        "kind": 5,
+        "importPath": "operating_system",
+        "description": "operating_system",
+        "peekOfCode": "folder_name = \"create_folder_testing\"\nwhole_path = os.path.join(path,folder_name) \n# os.mkdir(whole_path)\n# os.mrdir(whole_path)\nos.makedirs(\"C:\\samle_test\\sample1\\sample2\")",
+        "detail": "operating_system",
+        "documentation": {}
+    },
+    {
+        "label": "whole_path",
+        "kind": 5,
+        "importPath": "operating_system",
+        "description": "operating_system",
+        "peekOfCode": "whole_path = os.path.join(path,folder_name) \n# os.mkdir(whole_path)\n# os.mrdir(whole_path)\nos.makedirs(\"C:\\samle_test\\sample1\\sample2\")",
+        "detail": "operating_system",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "palindrome",
+        "description": "palindrome",
+        "peekOfCode": "s = int(input())\nstart= 0\nend = len(s)- 1\nflag= 1\nwhile start<end:\n    if s[start]!=s[end]:\n       # print(\" not palindrome\")\n       flag= 0\n       break\n    start +=1 # incrementing the value",
+        "detail": "palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "palindrome",
+        "description": "palindrome",
+        "peekOfCode": "end = len(s)- 1\nflag= 1\nwhile start<end:\n    if s[start]!=s[end]:\n       # print(\" not palindrome\")\n       flag= 0\n       break\n    start +=1 # incrementing the value\n    end -=1 #decrement the value of index\nif flag == 1:",
+        "detail": "palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "column",
+        "kind": 5,
+        "importPath": "patterns",
+        "description": "patterns",
+        "peekOfCode": "column = n-2\nfor i in range(n):\n    for j in range(n):\n    #   if i==0 or j==0 or i==n-1 or j==n-1:\n        if ((i == 0 or i == n-1)): #or  i + j == n-1):\n          print('*',end='')\n        elif row==i and column ==j:\n           print('*',end='')    \n           row +=1\n           column -=1 ",
+        "detail": "patterns",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "population_based_graphSQL",
+        "description": "population_based_graphSQL",
+        "peekOfCode": "connection = sql.connect(user='root',\n            password='gowrisankar@88',\n            host='localhost',\n            database='world')   #open connection\nc = connection.cursor()\n# c.execute('SELECT name,population FROM city order by population desc limit 5;')\nc.execute('SELECT CountryCode,population FROM city where CountryCode = \"IND;')\nl=c.fetchall()\nprint (l)\nx,y = [],[]",
+        "detail": "population_based_graphSQL",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "population_based_graphSQL",
+        "description": "population_based_graphSQL",
+        "peekOfCode": "c = connection.cursor()\n# c.execute('SELECT name,population FROM city order by population desc limit 5;')\nc.execute('SELECT CountryCode,population FROM city where CountryCode = \"IND;')\nl=c.fetchall()\nprint (l)\nx,y = [],[]\nfor city,population in l:\n    x.append(city)\n    y.append(population)\n    print(x)",
+        "detail": "population_based_graphSQL",
+        "documentation": {}
+    },
+    {
+        "label": "x,y",
+        "kind": 5,
+        "importPath": "population_based_graphSQL",
+        "description": "population_based_graphSQL",
+        "peekOfCode": "x,y = [],[]\nfor city,population in l:\n    x.append(city)\n    y.append(population)\n    print(x)\n    print(y)\nplt.bar(x,y)\nplt.ylabel('population')\nplt.xlabel('city')\nplt.title('top 5 ciities population')",
+        "detail": "population_based_graphSQL",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 2,
+        "importPath": "print range of num in list",
+        "description": "print range of num in list",
+        "peekOfCode": "def list1(end,s=0,st=0):\n    l=[]\n    while s < end:\n        l.append(s)\n        s+= st\n    return l\nprint(list1(10,1,2))",
+        "detail": "print range of num in list",
+        "documentation": {}
+    },
+    {
+        "label": "check_palindrome",
+        "kind": 2,
+        "importPath": "read_write_palindrome",
+        "description": "read_write_palindrome",
+        "peekOfCode": "def check_palindrome(word):\n    start=0\n    end=len(word)-1\n    while start< end:\n        if word[start]!=word[end]:\n            return 0\n        start+=1\n        end-=1\n    return 1\ndef remove_punc(word):",
+        "detail": "read_write_palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "remove_punc",
+        "kind": 2,
+        "importPath": "read_write_palindrome",
+        "description": "read_write_palindrome",
+        "peekOfCode": "def remove_punc(word):\n    s=''\n    for letter in word:\n        if letter.isalpha():\n            s+=letter\n    return s\nf=open('D:/python/read.txt','r')\nf2=open('D:/python/palindrome_check.txt','w')\ns=f.readline()\nwhile s:",
+        "detail": "read_write_palindrome",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "sample try",
+        "description": "sample try",
+        "peekOfCode": "string = input(\"Enter a String : \")\nalphabets=0\ndigits=0\nspecialChars=0\n#checks for each character in the string\nfor i in string: \n\t#if character of the string is an alphabet\n    \t\tif i.isalpha():\n       \t\t\t alphabets+=1\n\t\t#if character of the string is a digit",
+        "detail": "sample try",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "speech_recognition_project",
+        "description": "speech_recognition_project",
+        "peekOfCode": "r = sr.Recognizer()\ntext = ''\nprint(datetime.now())\nf=open('D:/python/speech_record_text.txt','a')\nwhile True:\n    if 'stop' == text:\n        break\n    with sr.Microphone() as source:\n        print('recording started')\n        audio_data = r.record(source,duration=5)",
+        "detail": "speech_recognition_project",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "speech_recognition_project",
+        "description": "speech_recognition_project",
+        "peekOfCode": "text = ''\nprint(datetime.now())\nf=open('D:/python/speech_record_text.txt','a')\nwhile True:\n    if 'stop' == text:\n        break\n    with sr.Microphone() as source:\n        print('recording started')\n        audio_data = r.record(source,duration=5)\n        print(\"recording ended\")",
+        "detail": "speech_recognition_project",
+        "documentation": {}
+    },
+    {
+        "label": "rem",
+        "kind": 5,
+        "importPath": "sum of digit",
+        "description": "sum of digit",
+        "peekOfCode": "rem = 0\nwhile n!=0:\n   rem = n % 10\n   s= s + rem\n   n = n//10\nprint (\"sum of digit\",s)",
+        "detail": "sum of digit",
+        "documentation": {}
+    },
+    {
+        "label": "abc",
+        "kind": 6,
+        "importPath": "task class changing coyname",
+        "description": "task class changing coyname",
+        "peekOfCode": "class abc:\n    company = \"ABC\"\n    def __init__(self,name,age,rollno) :  #special method,initilize\n        self.name = name    # s1.name = kumar , object attribute/object variable\n        self.age = age   # name,age,rolno,prince are attribute\n        self.rolno = rollno\n    @classmethod\n    def change_names(cls,change_name):\n        cls.company +=change_name\n    @staticmethod",
+        "detail": "task class changing coyname",
+        "documentation": {}
+    },
+    {
+        "label": "employee",
+        "kind": 6,
+        "importPath": "task class object",
+        "description": "task class object",
+        "peekOfCode": "class employee:\n    company_name = \"ABC Copmpany\"\n    def __init__(self,name,empid,role) :\n        self.name= name\n        self.empid = empid\n        self.role = role\n    def changeroll(self,newroll):\n        self.role= newroll\ns1 =employee('sam','5454', 'ceo' )\nprint (s1.company_name)",
+        "detail": "task class object",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "task_population_piechart",
+        "description": "task_population_piechart",
+        "peekOfCode": "connection = sql.connect(user='root',\n            password='gowrisankar@88',\n            host='localhost',\n            database='world')   #open connection\nc = connection.cursor()\n# c.execute('SELECT name,population FROM city order by population desc limit 5;')\n# c.execute('SELECT Code,population FROM country where Code in(\"IND\",\"AFG\",\"AUS\",\"USA\") ;')\nc.execute(\"\"\" SELECT \n    CASE \n        WHEN Code IN ('IND', 'AFG', 'CHN', 'USA') THEN Code",
+        "detail": "task_population_piechart",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "task_population_piechart",
+        "description": "task_population_piechart",
+        "peekOfCode": "c = connection.cursor()\n# c.execute('SELECT name,population FROM city order by population desc limit 5;')\n# c.execute('SELECT Code,population FROM country where Code in(\"IND\",\"AFG\",\"AUS\",\"USA\") ;')\nc.execute(\"\"\" SELECT \n    CASE \n        WHEN Code IN ('IND', 'AFG', 'CHN', 'USA') THEN Code\n        ELSE 'Others' \n    END AS CountryCode,\n    SUM(population) AS TotalPopulation\nFROM ",
+        "detail": "task_population_piechart",
+        "documentation": {}
+    },
+    {
+        "label": "x,y",
+        "kind": 5,
+        "importPath": "task_population_piechart",
+        "description": "task_population_piechart",
+        "peekOfCode": "x,y = [],[]\nfor CountryCode , population in l:\n    x.append(CountryCode)\n    y.append(population)\n    print(x)\n    print(y)\nplt.pie(y,labels=x)\nplt.show()",
+        "detail": "task_population_piechart",
+        "documentation": {}
+    },
+    {
+        "label": "x,y",
+        "kind": 5,
+        "importPath": "tempCodeRunnerFile",
+        "description": "tempCodeRunnerFile",
+        "peekOfCode": "x,y = [],[]\nfor CountryCode , population in l:\n    x.append(CountryCode)\n    y.append(population)\n    print(x)\n    print(y)",
+        "detail": "tempCodeRunnerFile",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "test 1",
+        "description": "test 1",
+        "peekOfCode": "total = 0\nwhile n!= 0:\n    rem = n%10\n    total = total + rem\n    n= n//10\nprint (total)",
+        "detail": "test 1",
+        "documentation": {}
+    },
+    {
+        "label": "vowels",
+        "kind": 5,
+        "importPath": "vowels",
+        "description": "vowels",
+        "peekOfCode": "vowels = 0\nconsonent= 0\nvow='aeiouAEIOU'\nfor i in range(len(n)) :\n    if n[i] in vow:\n    #  if n[i] in 'aeiouAEIOU':\n        vowels = vowels + 1\n    else:\n        consonent = consonent + 1\nprint(\"vowels : \",vowels)",
+        "detail": "vowels",
+        "documentation": {}
+    }
+]
